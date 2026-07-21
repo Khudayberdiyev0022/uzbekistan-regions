@@ -58,7 +58,7 @@ Tur SOATO kodining o'zidan olinadi — beshinchi raqam shahar uchun `4`, tuman u
 Uchala model ikkita scope bilan keladi — API ham aynan shulardan foydalanadi:
 
 ```php
-// joriy tildagi nom bo'yicha registrga sezgir bo'lmagan qidiruv
+// joriy tildagi nom ichidan registrga sezgir bo'lmagan qidiruv
 District::search('and')->get();
 
 // sort=name berilganda joriy til ustuni bo'yicha tartiblanadi

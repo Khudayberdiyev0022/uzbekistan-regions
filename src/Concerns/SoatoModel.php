@@ -33,7 +33,10 @@ trait SoatoModel
   }
 
   /**
-   * Case insensitive prefix search on the localized name.
+   * Case insensitive search anywhere in the localized name.
+   *
+   * Matching is deliberately not anchored to the start: Russian city names carry a
+   * "город " prefix, which would otherwise hide them from the obvious search term.
    */
   public function scopeSearch(Builder $query, ?string $term): Builder
   {
@@ -41,16 +44,27 @@ trait SoatoModel
       return $query;
     }
 
+    // LIKE wildcards typed by a user would only surprise them here.
+    $term   = str_replace(['%', '_'], '', $term);
     $column = 'name_'.static::locale();
 
     if ($query->getConnection()->getDriverName() === 'pgsql') {
-      return $query->where($column, 'ilike', $term.'%');
+      return $query->where($column, 'ilike', '%'.$term.'%');
     }
 
-    return $query->whereRaw(
-      'LOWER('.$query->getGrammar()->wrap($column).') LIKE ?',
-      [mb_strtolower($term).'%']
-    );
+    // SQLite folds case for ASCII only, so LOWER() leaves "Андижан" untouched and a
+    // lowercase needle never matches it. Try the casings the data actually uses.
+    $variants = array_unique([
+      $term,
+      mb_strtolower($term),
+      mb_convert_case(mb_strtolower($term), MB_CASE_TITLE, 'UTF-8'),
+    ]);
+
+    return $query->where(function (Builder $query) use ($column, $variants) {
+      foreach ($variants as $variant) {
+        $query->orWhere($column, 'like', '%'.$variant.'%');
+      }
+    });
   }
 
   /**

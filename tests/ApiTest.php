@@ -71,6 +71,34 @@ class ApiTest extends TestCase
       ->assertJsonPath('data.0.name', 'Andijon viloyati');
   }
 
+  public function test_it_searches_cyrillic_names(): void
+  {
+    // SQLite's LOWER() ignores Cyrillic, so this only passes with explicit casings.
+    $this->getJson('/api/v1/regions?search=андижанская', ['Accept-Language' => 'ru'])
+      ->assertOk()
+      ->assertJsonCount(1, 'data')
+      ->assertJsonPath('data.0.name', 'Андижанская область');
+
+    $this->getJson('/api/v1/districts?search=Андижон', ['Accept-Language' => 'oz'])
+      ->assertOk()
+      ->assertJsonPath('data.0.name', 'Андижон тумани');
+  }
+
+  public function test_it_finds_a_city_despite_the_russian_prefix(): void
+  {
+    $this->getJson('/api/v1/districts?type=city&search=Андижан', ['Accept-Language' => 'ru'])
+      ->assertOk()
+      ->assertJsonCount(1, 'data')
+      ->assertJsonPath('data.0.name', 'город Андижан');
+  }
+
+  public function test_it_ignores_like_wildcards(): void
+  {
+    $this->getJson('/api/v1/regions?search=%')
+      ->assertOk()
+      ->assertJsonCount(14, 'data');
+  }
+
   public function test_it_sorts_by_the_localized_name(): void
   {
     $expected = Region::orderBy('name_uz')->value('name_uz');

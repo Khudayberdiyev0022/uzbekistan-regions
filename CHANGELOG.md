@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.1.1
+
+Fixes `search`, which did not work at all in Cyrillic outside PostgreSQL.
+
+- On SQLite and MySQL the scope compared `LOWER(name) LIKE lower(term)`. SQLite's `LOWER()`
+  folds ASCII only, so `LOWER('Андижан')` stays `'Андижан'` while the needle is lowercased —
+  nothing ever matched in the `ru` and `oz` locales. The scope now tries the casings the data
+  actually uses. PostgreSQL was unaffected, because it uses `ILIKE`.
+- Matching is no longer anchored to the start of the name. Searching `Андижан` could not find
+  `город Андижан`, the form v1.1.0 introduced for cities.
+- `%` and `_` typed into `search` are now stripped instead of acting as wildcards.
+
 ## v1.1.0
 
 **Upgrading from v1.0.x requires two commands**, because both the schema and the data changed:

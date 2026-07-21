@@ -61,7 +61,7 @@ district — so it stays correct as the dataset grows.
 All three models expose two query scopes — the API is built on the very same ones:
 
 ```php
-// case insensitive prefix search on the name in the active locale
+// case insensitive search anywhere in the name, in the active locale
 District::search('and')->get();
 
 // "name" is resolved to the column of the active locale
