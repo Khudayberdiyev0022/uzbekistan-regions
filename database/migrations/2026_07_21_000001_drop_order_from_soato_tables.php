@@ -17,9 +17,18 @@ return new class extends Migration {
   public function up(): void
   {
     foreach (['regions', 'districts', 'quarters'] as $table) {
-      if (Schema::hasColumn($table, 'order')) {
-        Schema::table($table, fn (Blueprint $t) => $t->dropColumn('order'));
+      if (!Schema::hasColumn($table, 'order')) {
+        continue;
       }
+
+      // SQLite refuses to drop a column an index still points at.
+      $index = "idx_{$table}_order";
+
+      if (collect(Schema::getIndexes($table))->contains(fn (array $i) => $i['name'] === $index)) {
+        Schema::table($table, fn (Blueprint $t) => $t->dropIndex($index));
+      }
+
+      Schema::table($table, fn (Blueprint $t) => $t->dropColumn('order'));
     }
   }
 

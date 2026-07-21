@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.2.1
+
+Fixes the v1.2.0 upgrade, which failed on SQLite.
+
+- `order` carried an index, and SQLite refuses to drop a column an index still points at:
+  `error in index idx_regions_order after drop column`. The migration now drops the index
+  first. Fresh installs were never affected, which is exactly why CI missed it — the columns
+  it removes only exist on an upgraded database.
+- Added `tests/UpgradeTest.php`, which rebuilds the pre-v1.2.0 shape and upgrades it, so this
+  path is covered from now on.
+
 ## v1.2.0
 
 - Documented where the dataset comes from. It was built from
