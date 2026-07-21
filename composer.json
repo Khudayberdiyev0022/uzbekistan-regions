@@ -1,0 +1,55 @@
+{
+    "name": "khudayberdiyev/uzbekistan-regions",
+    "description": "Uzbekistan regions, districts and quarters (SOATO) for Laravel: models, migrations, seeder and a ready-to-use multilingual REST API.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "uzbekistan",
+        "regions",
+        "districts",
+        "mahalla",
+        "soato",
+        "viloyat",
+        "tuman"
+    ],
+    "authors": [
+        {
+            "name": "Khudayberdiyev"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0 || ^12.0",
+        "illuminate/database": "^11.0 || ^12.0",
+        "illuminate/http": "^11.0 || ^12.0",
+        "illuminate/routing": "^11.0 || ^12.0",
+        "illuminate/console": "^11.0 || ^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0 || ^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Khudayberdiyev\\UzbekistanRegions\\": "src/",
+            "Khudayberdiyev\\UzbekistanRegions\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Khudayberdiyev\\UzbekistanRegions\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Khudayberdiyev\\UzbekistanRegions\\UzbekistanRegionsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
