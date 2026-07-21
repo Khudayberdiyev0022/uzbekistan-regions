@@ -21,10 +21,10 @@ class District extends Model
 {
   use SoatoModel;
 
-  /** A tuman. */
+  /** An ordinary district — a tuman. */
   public const TYPE_DISTRICT = 'district';
 
-  /** A city of regional or republican subordination. */
+  /** A city of regional or republican subordination — a shahar. */
   public const TYPE_CITY = 'city';
 
   protected $table = 'districts';

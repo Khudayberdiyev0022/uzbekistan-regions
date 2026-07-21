@@ -52,9 +52,9 @@ $district->isCity();         // Andijon shahri vs Andijon tumani
 Every region and district is classified, so a picker can show only what it needs:
 
 ```php
-District::ofType(District::TYPE_CITY)->get();     // the 34 cities
-District::ofType(District::TYPE_DISTRICT)->get(); // the 175 tumans
-Region::ofType(Region::TYPE_REGION)->get();       // the 12 viloyats
+District::ofType(District::TYPE_CITY)->get();     // the 34 cities (shahar)
+District::ofType(District::TYPE_DISTRICT)->get(); // the 175 districts (tuman)
+Region::ofType(Region::TYPE_REGION)->get();       // the 12 regions (viloyat)
 ```
 
 The type comes from the SOATO code itself — the fifth digit is `4` for a city and `2` for a

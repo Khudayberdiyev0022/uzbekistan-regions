@@ -21,13 +21,13 @@ class Region extends Model
 {
   use SoatoModel;
 
-  /** A viloyat. */
+  /** An ordinary region — a viloyat. */
   public const TYPE_REGION = 'region';
 
   /** Tashkent, the only city that is a region of its own. */
   public const TYPE_CITY = 'city';
 
-  /** Karakalpakstan. */
+  /** Karakalpakstan, the one autonomous republic. */
   public const TYPE_REPUBLIC = 'republic';
 
   protected $table = 'regions';
