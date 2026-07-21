@@ -2,6 +2,8 @@
 
 *English · [O'zbekcha](README.uz.md)*
 
+[![tests](https://github.com/Khudayberdiyev0022/uzbekistan-regions/actions/workflows/tests.yml/badge.svg)](https://github.com/Khudayberdiyev0022/uzbekistan-regions/actions/workflows/tests.yml)
+
 Regions, districts and quarters (mahalla) of Uzbekistan for Laravel: Eloquent models, migrations,
 the full SOATO dataset and a ready-to-use REST API — in Uzbek Latin, Uzbek Cyrillic and Russian.
 
@@ -134,6 +136,11 @@ With `per_page` the usual `links` and `meta` blocks are added.
 composer install
 vendor/bin/phpunit
 ```
+
+CI runs the suite on PHP 8.2, 8.3 and 8.4 against Laravel 12, and once more against
+PostgreSQL — the search scope uses `ILIKE` there and cased `LIKE` variants everywhere else.
+Laravel 11 is still allowed by the version constraint but is no longer covered by CI: every
+11.x release now carries unpatched security advisories, and Composer refuses to install it.
 
 ## License
 

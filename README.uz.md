@@ -2,6 +2,8 @@
 
 *[English](README.md) · O'zbekcha*
 
+[![tests](https://github.com/Khudayberdiyev0022/uzbekistan-regions/actions/workflows/tests.yml/badge.svg)](https://github.com/Khudayberdiyev0022/uzbekistan-regions/actions/workflows/tests.yml)
+
 O'zbekiston viloyatlari, tumanlari va mahallalari (SOATO) uchun Laravel paketi: modellar,
 migratsiyalar, tayyor ma'lumotlar to'plami va uch tilli (uz / oz / ru) REST API.
 
@@ -131,6 +133,11 @@ Javob — Laravel'ning standart resurs formati:
 composer install
 vendor/bin/phpunit
 ```
+
+CI testlarni PHP 8.2, 8.3 va 8.4 da Laravel 12 bilan, hamda alohida PostgreSQL bilan
+yurgizadi — qidiruv scope'i u yerda `ILIKE`, boshqa joyda registr variantli `LIKE` ishlatadi.
+Laravel 11 versiya cheklovida qolgan, lekin CI uni tekshirmaydi: 11.x ning barcha relizlarida
+yopilmagan xavfsizlik ogohlantirishlari bor va Composer uni o'rnatishdan bosh tortadi.
 
 ## Litsenziya
 
