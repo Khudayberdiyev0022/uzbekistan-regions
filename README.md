@@ -1,28 +1,32 @@
 # Uzbekistan Regions
 
-O'zbekiston viloyatlari, tumanlari va mahallalari (SOATO) uchun Laravel paketi: modellar,
-migratsiyalar, tayyor ma'lumotlar to'plami va uch tilli (uz / oz / ru) REST API.
+*English · [O'zbekcha](README.uz.md)*
 
-## O'rnatish
+Regions, districts and quarters (mahalla) of Uzbekistan for Laravel: Eloquent models, migrations,
+the full SOATO dataset and a ready-to-use REST API — in Uzbek Latin, Uzbek Cyrillic and Russian.
+
+The dataset ships with the package: **14 regions, 210 districts, 2 641 quarters**.
+
+## Installation
 
 ```bash
 composer require khudayberdiyev/uzbekistan-regions
 ```
 
-Jadvallarni yaratib, ma'lumotlarni yuklang:
+Create the tables and load the data:
 
 ```bash
 php artisan migrate
 php artisan uzbekistan-regions:seed
 ```
 
-Konfiguratsiyani o'zgartirmoqchi bo'lsangiz:
+To change any default, publish the config file:
 
 ```bash
 php artisan vendor:publish --tag=uzbekistan-regions-config
 ```
 
-## Modellar bilan ishlash
+## Working with the models
 
 ```php
 use Khudayberdiyev\UzbekistanRegions\Models\Region;
@@ -31,27 +35,27 @@ use Khudayberdiyev\UzbekistanRegions\Models\Quarter;
 
 $region = Region::with('districts.quarters')->find(2);
 
-$region->getName();          // joriy locale bo'yicha nom
-$region->name_ru;            // aniq til
-$region->districts;          // tumanlar
-$region->quarters;           // viloyatdagi barcha mahallalar (hasManyThrough)
+$region->getName();          // name in the active locale
+$region->name_ru;            // or an explicit language
+$region->districts;          // districts of the region
+$region->quarters;           // every quarter in the region (hasManyThrough)
 
 $district = District::find(10);
 $district->region;
 $district->quarters;
 ```
 
-Uchala model ikkita scope bilan keladi — API ham aynan shulardan foydalanadi:
+All three models expose two query scopes — the API is built on the very same ones:
 
 ```php
-// joriy tildagi nom bo'yicha registrga sezgir bo'lmagan qidiruv
+// case insensitive prefix search on the name in the active locale
 District::search('and')->get();
 
-// sort=name berilganda joriy til ustuni bo'yicha tartiblanadi
+// "name" is resolved to the column of the active locale
 Quarter::sortBy('name', 'desc')->get();
 ```
 
-O'z modelingizga bog'lash:
+Referencing them from your own models:
 
 ```php
 public function district(): BelongsTo
@@ -62,27 +66,27 @@ public function district(): BelongsTo
 
 ## API
 
-Paket avtomatik ravishda quyidagi read-only endpointlarni ro'yxatdan o'tkazadi:
+The package registers these read-only endpoints automatically:
 
-| Method | URI                    | Tavsif                                     |
-|--------|------------------------|--------------------------------------------|
-| GET    | `/api/v1/regions`      | Viloyatlar ro'yxati                        |
-| GET    | `/api/v1/regions/{id}` | Viloyat + tumanlar + mahallalar            |
-| GET    | `/api/v1/districts`    | Tumanlar (`?region_id=` bilan filtrlanadi) |
-| GET    | `/api/v1/districts/{id}` | Tuman + viloyat + mahallalar             |
-| GET    | `/api/v1/quarters`     | Mahallalar (`?district_id=`, `?region_id=`) |
-| GET    | `/api/v1/quarters/{id}` | Mahalla + tuman + viloyat                 |
+| Method | URI                      | Returns                                     |
+|--------|--------------------------|---------------------------------------------|
+| GET    | `/api/v1/regions`        | list of regions                             |
+| GET    | `/api/v1/regions/{id}`   | region + districts + quarters               |
+| GET    | `/api/v1/districts`      | districts, filterable by `?region_id=`      |
+| GET    | `/api/v1/districts/{id}` | district + region + quarters                |
+| GET    | `/api/v1/quarters`       | quarters, filterable by `?district_id=` / `?region_id=` |
+| GET    | `/api/v1/quarters/{id}`  | quarter + district + region                 |
 
-Query parametrlar: `search`, `sort` (`id`, `name`, `soato_id`, `order`, `created_at`),
-`order` (`asc` / `desc`), `per_page` (berilsa javob paginatsiya bilan qaytadi).
+Query parameters: `search`, `sort` (`id`, `name`, `soato_id`, `order`), `order` (`asc` / `desc`)
+and `per_page` — when present, the response is paginated.
 
-Til `Accept-Language` header orqali tanlanadi — `uz` (default), `oz`, `ru`.
+The language is selected with the `Accept-Language` header: `uz` (default), `oz`, `ru`.
 
 ```bash
 curl -H "Accept-Language: ru" "https://example.test/api/v1/districts?region_id=2&search=Ан"
 ```
 
-Javob — Laravel'ning standart resurs formati:
+Responses use the standard Laravel resource format:
 
 ```json
 {
@@ -92,31 +96,31 @@ Javob — Laravel'ning standart resurs formati:
 }
 ```
 
-`per_page` berilganda javobga standart `links` va `meta` bloklari qo'shiladi.
+With `per_page` the usual `links` and `meta` blocks are added.
 
-## Konfiguratsiya
+## Configuration
 
 `config/uzbekistan-regions.php`:
 
 ```php
 'routes' => [
-  'enabled'    => true,          // faqat modellar kerak bo'lsa false qiling
+  'enabled'    => true,          // set to false if you only need the models
   'prefix'     => 'api/v1',
   'middleware' => ['api', SetLocale::class],
 ],
 'locales'        => ['uz', 'oz', 'ru'],
 'default_locale' => 'uz',
-'connection'     => null,        // alohida DB connection kerak bo'lsa
-'data_path'      => null,        // o'z JSON fayllaringiz bo'lsa
+'connection'     => null,        // a dedicated database connection, if you use one
+'data_path'      => null,        // your own JSON files, if you maintain them
 ```
 
-## Testlar
+## Tests
 
 ```bash
 composer install
 vendor/bin/phpunit
 ```
 
-## Litsenziya
+## License
 
 MIT.
