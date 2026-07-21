@@ -5,7 +5,7 @@
 Regions, districts and quarters (mahalla) of Uzbekistan for Laravel: Eloquent models, migrations,
 the full SOATO dataset and a ready-to-use REST API — in Uzbek Latin, Uzbek Cyrillic and Russian.
 
-The dataset ships with the package: **14 regions, 210 districts, 2 641 quarters**.
+The dataset ships with the package: **14 regions, 209 districts and cities, 2 641 quarters**.
 
 ## Installation
 
@@ -36,6 +36,7 @@ use Khudayberdiyev\UzbekistanRegions\Models\Quarter;
 $region = Region::with('districts.quarters')->find(2);
 
 $region->getName();          // name in the active locale
+$region->type;               // region | city | republic
 $region->name_ru;            // or an explicit language
 $region->districts;          // districts of the region
 $region->quarters;           // every quarter in the region (hasManyThrough)
@@ -43,7 +44,19 @@ $region->quarters;           // every quarter in the region (hasManyThrough)
 $district = District::find(10);
 $district->region;
 $district->quarters;
+$district->isCity();         // Andijon shahri vs Andijon tumani
 ```
+
+Every region and district is classified, so a picker can show only what it needs:
+
+```php
+District::ofType(District::TYPE_CITY)->get();     // the 34 cities
+District::ofType(District::TYPE_DISTRICT)->get(); // the 175 tumans
+Region::ofType(Region::TYPE_REGION)->get();       // the 12 viloyats
+```
+
+The type comes from the SOATO code itself — the fifth digit is `4` for a city and `2` for a
+district — so it stays correct as the dataset grows.
 
 All three models expose two query scopes — the API is built on the very same ones:
 
@@ -77,8 +90,9 @@ The package registers these read-only endpoints automatically:
 | GET    | `/api/v1/quarters`       | quarters, filterable by `?district_id=` / `?region_id=` |
 | GET    | `/api/v1/quarters/{id}`  | quarter + district + region                 |
 
-Query parameters: `search`, `sort` (`id`, `name`, `soato_id`, `order`), `order` (`asc` / `desc`)
-and `per_page` — when present, the response is paginated.
+Query parameters: `type` (`region` / `city` / `republic` for regions, `district` / `city` for
+districts), `search`, `sort` (`id`, `name`, `soato_id`, `order`), `order` (`asc` / `desc`) and
+`per_page` — when present, the response is paginated.
 
 The language is selected with the `Accept-Language` header: `uz` (default), `oz`, `ru`.
 
@@ -91,7 +105,7 @@ Responses use the standard Laravel resource format:
 ```json
 {
   "data": [
-    { "id": 2, "soato_id": "1703", "name": "Andijon viloyati", "order": 1, "districts_count": 14, "quarters_count": 305 }
+    { "id": 2, "soato_id": "1703", "type": "region", "name": "Andijon viloyati", "order": 1, "districts_count": 14, "quarters_count": 305 }
   ]
 }
 ```

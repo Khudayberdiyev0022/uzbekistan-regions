@@ -25,12 +25,34 @@ class ApiTest extends TestCase
     $this->assertSame(2641, Quarter::count());
   }
 
+  public function test_it_classifies_cities_and_districts(): void
+  {
+    $this->assertSame(34, District::where('type', District::TYPE_CITY)->count());
+    $this->assertSame(175, District::where('type', District::TYPE_DISTRICT)->count());
+    $this->assertSame(1, Region::where('type', Region::TYPE_CITY)->count());
+    $this->assertSame(1, Region::where('type', Region::TYPE_REPUBLIC)->count());
+
+    $andijonCity = District::where('soato_id', '1703401')->first();
+
+    $this->assertTrue($andijonCity->isCity());
+    $this->assertSame('Andijon shahri', $andijonCity->name_uz);
+    $this->assertSame('город Андижан', $andijonCity->name_ru);
+  }
+
+  public function test_it_filters_districts_by_type(): void
+  {
+    $this->getJson('/api/v1/districts?type=city')
+      ->assertOk()
+      ->assertJsonCount(34, 'data')
+      ->assertJsonPath('data.0.type', 'city');
+  }
+
   public function test_it_lists_regions(): void
   {
     $this->getJson('/api/v1/regions')
       ->assertOk()
       ->assertJsonCount(14, 'data')
-      ->assertJsonStructure(['data' => [['id', 'soato_id', 'name', 'districts_count', 'quarters_count']]]);
+      ->assertJsonStructure(['data' => [['id', 'soato_id', 'type', 'name', 'districts_count', 'quarters_count']]]);
   }
 
   public function test_it_returns_names_in_the_requested_locale(): void

@@ -74,6 +74,11 @@ class UzbekistanRegionsSeeder extends Seeder
       'updated_at' => $now,
     ];
 
+    // Quarters are all of one kind, so only regions and districts carry a type.
+    if (isset($row['type'])) {
+      $data['type'] = $row['type'];
+    }
+
     if ($table === 'districts') {
       $data['region_id'] = $row['region_id'];
     }

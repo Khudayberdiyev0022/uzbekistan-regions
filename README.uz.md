@@ -34,6 +34,7 @@ use Khudayberdiyev\UzbekistanRegions\Models\Quarter;
 $region = Region::with('districts.quarters')->find(2);
 
 $region->getName();          // joriy locale bo'yicha nom
+$region->type;               // region | city | republic
 $region->name_ru;            // aniq til
 $region->districts;          // tumanlar
 $region->quarters;           // viloyatdagi barcha mahallalar (hasManyThrough)
@@ -41,7 +42,18 @@ $region->quarters;           // viloyatdagi barcha mahallalar (hasManyThrough)
 $district = District::find(10);
 $district->region;
 $district->quarters;
+$district->isCity();         // Andijon shahri yoki Andijon tumani
 ```
+
+Har bir viloyat va tuman turi bo'yicha ajratilgan — select'da faqat keragini ko'rsatish uchun:
+
+```php
+District::ofType(District::TYPE_CITY)->get();     // 34 ta shahar
+District::ofType(District::TYPE_DISTRICT)->get(); // 175 ta tuman
+Region::ofType(Region::TYPE_REGION)->get();       // 12 ta viloyat
+```
+
+Tur SOATO kodining o'zidan olinadi — beshinchi raqam shahar uchun `4`, tuman uchun `2`.
 
 Uchala model ikkita scope bilan keladi — API ham aynan shulardan foydalanadi:
 
@@ -75,7 +87,8 @@ Paket avtomatik ravishda quyidagi read-only endpointlarni ro'yxatdan o'tkazadi:
 | GET    | `/api/v1/quarters`     | Mahallalar (`?district_id=`, `?region_id=`) |
 | GET    | `/api/v1/quarters/{id}` | Mahalla + tuman + viloyat                 |
 
-Query parametrlar: `search`, `sort` (`id`, `name`, `soato_id`, `order`),
+Query parametrlar: `type` (viloyatlar uchun `region` / `city` / `republic`, tumanlar uchun
+`district` / `city`), `search`, `sort` (`id`, `name`, `soato_id`, `order`),
 `order` (`asc` / `desc`), `per_page` (berilsa javob paginatsiya bilan qaytadi).
 
 Til `Accept-Language` header orqali tanlanadi — `uz` (default), `oz`, `ru`.
@@ -89,7 +102,7 @@ Javob — Laravel'ning standart resurs formati:
 ```json
 {
   "data": [
-    { "id": 2, "soato_id": "1703", "name": "Andijon viloyati", "order": 1, "districts_count": 14, "quarters_count": 305 }
+    { "id": 2, "soato_id": "1703", "type": "region", "name": "Andijon viloyati", "order": 1, "districts_count": 14, "quarters_count": 305 }
   ]
 }
 ```

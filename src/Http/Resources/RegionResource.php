@@ -13,6 +13,7 @@ class RegionResource extends JsonResource
     return [
       'id'              => $this->id,
       'soato_id'        => $this->soato_id,
+      'type'            => $this->type,
       'name'            => $this->getName(),
       'order'           => $this->order,
       'districts_count' => $this->whenNotNull($this->districts_count),

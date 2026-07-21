@@ -2,6 +2,7 @@
   {
     "id": 2,
     "soato_id": 1703,
+    "type": "region",
     "name_uz": "Andijon viloyati",
     "name_oz": "Андижон вилояти",
     "name_ru": "Андижанская область"
@@ -9,6 +10,7 @@
   {
     "id": 3,
     "soato_id": 1706,
+    "type": "region",
     "name_uz": "Buxoro viloyati",
     "name_oz": "Бухоро вилояти",
     "name_ru": "Бухарская область"
@@ -16,6 +18,7 @@
   {
     "id": 4,
     "soato_id": 1708,
+    "type": "region",
     "name_uz": "Jizzax viloyati",
     "name_oz": "Жиззах вилояти",
     "name_ru": "Джизакская область"
@@ -23,6 +26,7 @@
   {
     "id": 5,
     "soato_id": 1710,
+    "type": "region",
     "name_uz": "Qashqadaryo viloyati",
     "name_oz": "Қашқадарё вилояти",
     "name_ru": "Кашкадарьинская область"
@@ -30,6 +34,7 @@
   {
     "id": 6,
     "soato_id": 1712,
+    "type": "region",
     "name_uz": "Navoiy viloyati",
     "name_oz": "Навоий вилояти",
     "name_ru": "Навоийская область"
@@ -37,6 +42,7 @@
   {
     "id": 7,
     "soato_id": 1714,
+    "type": "region",
     "name_uz": "Namangan viloyati",
     "name_oz": "Наманган вилояти",
     "name_ru": "Наманганская область"
@@ -44,6 +50,7 @@
   {
     "id": 8,
     "soato_id": 1718,
+    "type": "region",
     "name_uz": "Samarqand viloyati",
     "name_oz": "Самарқанд вилояти",
     "name_ru": "Самаркандская область"
@@ -51,6 +58,7 @@
   {
     "id": 10,
     "soato_id": 1724,
+    "type": "region",
     "name_uz": "Sirdaryo viloyati",
     "name_oz": "Сирдарё вилояти",
     "name_ru": "Сырдарьинская область"
@@ -58,6 +66,7 @@
   {
     "id": 11,
     "soato_id": 1726,
+    "type": "city",
     "name_uz": "Toshkent shahri",
     "name_oz": "Тошкент шаҳри",
     "name_ru": "город Ташкент"
@@ -65,6 +74,7 @@
   {
     "id": 12,
     "soato_id": 1727,
+    "type": "region",
     "name_uz": "Toshkent viloyati",
     "name_oz": "Тошкент вилояти",
     "name_ru": "Ташкентская область"
@@ -72,6 +82,7 @@
   {
     "id": 13,
     "soato_id": 1730,
+    "type": "region",
     "name_uz": "Farg'ona viloyati",
     "name_oz": "Фарғона вилояти",
     "name_ru": "Ферганская область"
@@ -79,6 +90,7 @@
   {
     "id": 14,
     "soato_id": 1733,
+    "type": "region",
     "name_uz": "Xorazm viloyati",
     "name_oz": "Хоразм вилояти",
     "name_ru": "Хорезмская область"
@@ -86,6 +98,7 @@
   {
     "id": 15,
     "soato_id": 1735,
+    "type": "republic",
     "name_uz": "Qoraqalpog'iston Respublikasi",
     "name_oz": "Қорақалпоғистон Республикаси",
     "name_ru": "Республика Каракалпакстан"
@@ -93,6 +106,7 @@
   {
     "id": 5723,
     "soato_id": 1722,
+    "type": "region",
     "name_uz": "Surxondaryo viloyati",
     "name_oz": "Сурхондарё вилояти",
     "name_ru": "Сурхандарьинская область"

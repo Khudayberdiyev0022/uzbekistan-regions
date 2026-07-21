@@ -13,6 +13,7 @@ class DistrictResource extends JsonResource
     return [
       'id'             => $this->id,
       'soato_id'       => $this->soato_id,
+      'type'           => $this->type,
       'name'           => $this->getName(),
       'order'          => $this->order,
       'region_id'      => $this->region_id,

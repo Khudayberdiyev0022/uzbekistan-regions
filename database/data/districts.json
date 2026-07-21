@@ -3,6 +3,7 @@
     "id": 16,
     "region_id": 2,
     "soato_id": 1703202,
+    "type": "district",
     "name_uz": "Oltinko'l tumani",
     "name_oz": "Олтинкўл тумани",
     "name_ru": "Алтынкульский район"
@@ -11,6 +12,7 @@
     "id": 17,
     "region_id": 2,
     "soato_id": 1703203,
+    "type": "district",
     "name_uz": "Andijon tumani",
     "name_oz": "Андижон тумани",
     "name_ru": "Андижанский район"
@@ -19,6 +21,7 @@
     "id": 18,
     "region_id": 2,
     "soato_id": 1703206,
+    "type": "district",
     "name_uz": "Baliqchi tumani",
     "name_oz": "Балиқчи тумани",
     "name_ru": "Балыкчинский район"
@@ -27,6 +30,7 @@
     "id": 19,
     "region_id": 2,
     "soato_id": 1703209,
+    "type": "district",
     "name_uz": "Bo'z tumani",
     "name_oz": "Бўз тумани",
     "name_ru": "Бозский район"
@@ -35,6 +39,7 @@
     "id": 20,
     "region_id": 2,
     "soato_id": 1703210,
+    "type": "district",
     "name_uz": "Buloqboshi tumani",
     "name_oz": "Булоқбоши тумани",
     "name_ru": "Булакбашинский район"
@@ -43,6 +48,7 @@
     "id": 21,
     "region_id": 2,
     "soato_id": 1703211,
+    "type": "district",
     "name_uz": "Jalaquduq tumani",
     "name_oz": "Жалақудуқ тумани",
     "name_ru": "Джалалкудукский район"
@@ -51,6 +57,7 @@
     "id": 22,
     "region_id": 2,
     "soato_id": 1703214,
+    "type": "district",
     "name_uz": "Izboskan tumani",
     "name_oz": "Избоскан тумани",
     "name_ru": "Избасканский район"
@@ -59,6 +66,7 @@
     "id": 23,
     "region_id": 2,
     "soato_id": 1703217,
+    "type": "district",
     "name_uz": "Ulug'nor tumani",
     "name_oz": "Улуғнор тумани",
     "name_ru": "Улугнорский район"
@@ -67,6 +75,7 @@
     "id": 24,
     "region_id": 2,
     "soato_id": 1703220,
+    "type": "district",
     "name_uz": "Qo'rg'ontepa tumani",
     "name_oz": "Қўрғонтепа тумани",
     "name_ru": "Кургантепинский район"
@@ -75,6 +84,7 @@
     "id": 25,
     "region_id": 2,
     "soato_id": 1703224,
+    "type": "district",
     "name_uz": "Asaka tumani",
     "name_oz": "Асака тумани",
     "name_ru": "Асакинский район"
@@ -83,6 +93,7 @@
     "id": 26,
     "region_id": 2,
     "soato_id": 1703227,
+    "type": "district",
     "name_uz": "Marxamat tumani",
     "name_oz": "Мархамат тумани",
     "name_ru": "Мархаматский район"
@@ -91,6 +102,7 @@
     "id": 27,
     "region_id": 2,
     "soato_id": 1703230,
+    "type": "district",
     "name_uz": "Shahrixon tumani",
     "name_oz": "Шаҳрихон тумани",
     "name_ru": "Шахриханский район"
@@ -99,6 +111,7 @@
     "id": 28,
     "region_id": 2,
     "soato_id": 1703232,
+    "type": "district",
     "name_uz": "Paxtaobod tumani",
     "name_oz": "Пахтаобод тумани",
     "name_ru": "Пахтаабадский район"
@@ -107,6 +120,7 @@
     "id": 29,
     "region_id": 2,
     "soato_id": 1703236,
+    "type": "district",
     "name_uz": "Xo'jaobod tumani",
     "name_oz": "Хўжаобод тумани",
     "name_ru": "Ходжаабадский район"
@@ -115,22 +129,25 @@
     "id": 30,
     "region_id": 2,
     "soato_id": 1703401,
-    "name_uz": "Andijon",
-    "name_oz": "Андижон",
-    "name_ru": "Андижан"
+    "type": "city",
+    "name_uz": "Andijon shahri",
+    "name_oz": "Андижон шаҳри",
+    "name_ru": "город Андижан"
   },
   {
     "id": 31,
     "region_id": 2,
     "soato_id": 1703408,
-    "name_uz": "Xonobod",
-    "name_oz": "Хонобод",
-    "name_ru": "Ханабад"
+    "type": "city",
+    "name_uz": "Xonobod shahri",
+    "name_oz": "Хонобод шаҳри",
+    "name_ru": "город Ханабад"
   },
   {
     "id": 32,
     "region_id": 3,
     "soato_id": 1706204,
+    "type": "district",
     "name_uz": "Olot tumani",
     "name_oz": "Олот тумани",
     "name_ru": "Алатский район"
@@ -139,6 +156,7 @@
     "id": 33,
     "region_id": 3,
     "soato_id": 1706207,
+    "type": "district",
     "name_uz": "Buxoro tumani",
     "name_oz": "Бухоро тумани",
     "name_ru": "Бухарский район"
@@ -147,6 +165,7 @@
     "id": 34,
     "region_id": 3,
     "soato_id": 1706212,
+    "type": "district",
     "name_uz": "Vobkent tumani",
     "name_oz": "Вобкент тумани",
     "name_ru": "Вабкентский район"
@@ -155,6 +174,7 @@
     "id": 35,
     "region_id": 3,
     "soato_id": 1706215,
+    "type": "district",
     "name_uz": "G'ijduvon tumani",
     "name_oz": "Ғиждувон тумани",
     "name_ru": "Гиждуванский район"
@@ -163,6 +183,7 @@
     "id": 36,
     "region_id": 3,
     "soato_id": 1706219,
+    "type": "district",
     "name_uz": "Kogon tumani",
     "name_oz": "Когон тумани",
     "name_ru": "Каганский район"
@@ -171,6 +192,7 @@
     "id": 37,
     "region_id": 3,
     "soato_id": 1706230,
+    "type": "district",
     "name_uz": "Qorako'l tumani",
     "name_oz": "Қоракўл тумани",
     "name_ru": "Каракульский район"
@@ -179,6 +201,7 @@
     "id": 38,
     "region_id": 3,
     "soato_id": 1706232,
+    "type": "district",
     "name_uz": "Qorovulbozor tumani",
     "name_oz": "Қоровулбозор тумани",
     "name_ru": "Караулбазарский район"
@@ -187,6 +210,7 @@
     "id": 39,
     "region_id": 3,
     "soato_id": 1706240,
+    "type": "district",
     "name_uz": "Peshku tumani",
     "name_oz": "Пешку тумани",
     "name_ru": "Пешкунский район"
@@ -195,6 +219,7 @@
     "id": 40,
     "region_id": 3,
     "soato_id": 1706242,
+    "type": "district",
     "name_uz": "Romitan tumani",
     "name_oz": "Ромитан тумани",
     "name_ru": "Ромитанский район"
@@ -203,6 +228,7 @@
     "id": 41,
     "region_id": 3,
     "soato_id": 1706246,
+    "type": "district",
     "name_uz": "Jondor tumani",
     "name_oz": "Жондор тумани",
     "name_ru": "Жандарский район"
@@ -211,6 +237,7 @@
     "id": 42,
     "region_id": 3,
     "soato_id": 1706258,
+    "type": "district",
     "name_uz": "Shofirkon tumani",
     "name_oz": "Шофиркон тумани",
     "name_ru": "Шафирканский район"
@@ -219,22 +246,25 @@
     "id": 43,
     "region_id": 3,
     "soato_id": 1706401,
-    "name_uz": "Buxoro",
-    "name_oz": "Бухоро",
-    "name_ru": "Бухара"
+    "type": "city",
+    "name_uz": "Buxoro shahri",
+    "name_oz": "Бухоро шаҳри",
+    "name_ru": "город Бухара"
   },
   {
     "id": 44,
     "region_id": 3,
     "soato_id": 1706403,
-    "name_uz": "Kogon",
-    "name_oz": "Когон",
-    "name_ru": "Каган"
+    "type": "city",
+    "name_uz": "Kogon shahri",
+    "name_oz": "Когон шаҳри",
+    "name_ru": "город Каган"
   },
   {
     "id": 45,
     "region_id": 4,
     "soato_id": 1708201,
+    "type": "district",
     "name_uz": "Arnasoy tumani",
     "name_oz": "Арнасой тумани",
     "name_ru": "Арнасайский район"
@@ -243,6 +273,7 @@
     "id": 46,
     "region_id": 4,
     "soato_id": 1708204,
+    "type": "district",
     "name_uz": "Baxmal tumani",
     "name_oz": "Бахмал тумани",
     "name_ru": "Бахмальский район"
@@ -251,6 +282,7 @@
     "id": 47,
     "region_id": 4,
     "soato_id": 1708209,
+    "type": "district",
     "name_uz": "G'allaorol tumani",
     "name_oz": "Ғаллаорол тумани",
     "name_ru": "Галляаральский район"
@@ -259,6 +291,7 @@
     "id": 49,
     "region_id": 4,
     "soato_id": 1708215,
+    "type": "district",
     "name_uz": "Do'stlik tumani",
     "name_oz": "Дўстлик тумани",
     "name_ru": "Дустликский район"
@@ -267,6 +300,7 @@
     "id": 50,
     "region_id": 4,
     "soato_id": 1708218,
+    "type": "district",
     "name_uz": "Zomin tumani",
     "name_oz": "Зомин тумани",
     "name_ru": "Зааминский район"
@@ -275,6 +309,7 @@
     "id": 51,
     "region_id": 4,
     "soato_id": 1708220,
+    "type": "district",
     "name_uz": "Zarbdor tumani",
     "name_oz": "Зарбдор тумани",
     "name_ru": "Зарбдарский район"
@@ -283,6 +318,7 @@
     "id": 52,
     "region_id": 4,
     "soato_id": 1708223,
+    "type": "district",
     "name_uz": "Mirzacho'l tumani",
     "name_oz": "Мирзачўл тумани",
     "name_ru": "Мирзачульский район"
@@ -291,6 +327,7 @@
     "id": 53,
     "region_id": 4,
     "soato_id": 1708225,
+    "type": "district",
     "name_uz": "Zafarobod tumani",
     "name_oz": "Зафаробод тумани",
     "name_ru": "Зафарабадский район"
@@ -299,6 +336,7 @@
     "id": 54,
     "region_id": 4,
     "soato_id": 1708228,
+    "type": "district",
     "name_uz": "Paxtakor tumani",
     "name_oz": "Пахтакор тумани",
     "name_ru": "Пахтакорский район"
@@ -307,6 +345,7 @@
     "id": 55,
     "region_id": 4,
     "soato_id": 1708235,
+    "type": "district",
     "name_uz": "Forish tumani",
     "name_oz": "Фориш тумани",
     "name_ru": "Фаришский район"
@@ -315,6 +354,7 @@
     "id": 56,
     "region_id": 4,
     "soato_id": 1708237,
+    "type": "district",
     "name_uz": "Yangiobod tumani",
     "name_oz": "Янгиобод тумани",
     "name_ru": "Янгиабадский район"
@@ -323,14 +363,16 @@
     "id": 57,
     "region_id": 4,
     "soato_id": 1708401,
-    "name_uz": "Jizzax",
-    "name_oz": "Жиззах",
-    "name_ru": "Джизак"
+    "type": "city",
+    "name_uz": "Jizzax shahri",
+    "name_oz": "Жиззах шаҳри",
+    "name_ru": "город Джизак"
   },
   {
     "id": 58,
     "region_id": 5,
     "soato_id": 1710207,
+    "type": "district",
     "name_uz": "G'uzor tumani",
     "name_oz": "Ғузор тумани",
     "name_ru": "Гузарский район"
@@ -339,6 +381,7 @@
     "id": 59,
     "region_id": 5,
     "soato_id": 1710212,
+    "type": "district",
     "name_uz": "Dehqonobod tumani",
     "name_oz": "Деҳқонобод тумани",
     "name_ru": "Дехканабадский район"
@@ -347,6 +390,7 @@
     "id": 60,
     "region_id": 5,
     "soato_id": 1710220,
+    "type": "district",
     "name_uz": "Qamashi tumani",
     "name_oz": "Қамаши тумани",
     "name_ru": "Камашинский район"
@@ -355,6 +399,7 @@
     "id": 61,
     "region_id": 5,
     "soato_id": 1710224,
+    "type": "district",
     "name_uz": "Qarshi tumani",
     "name_oz": "Қарши тумани",
     "name_ru": "Каршинский район"
@@ -363,6 +408,7 @@
     "id": 62,
     "region_id": 5,
     "soato_id": 1710229,
+    "type": "district",
     "name_uz": "Koson tumani",
     "name_oz": "Косон тумани",
     "name_ru": "Касанский район"
@@ -371,6 +417,7 @@
     "id": 63,
     "region_id": 5,
     "soato_id": 1710232,
+    "type": "district",
     "name_uz": "Kitob tumani",
     "name_oz": "Китоб тумани",
     "name_ru": "Китабский район"
@@ -379,6 +426,7 @@
     "id": 64,
     "region_id": 5,
     "soato_id": 1710233,
+    "type": "district",
     "name_uz": "Mirishkor tumani",
     "name_oz": "Миришкор тумани",
     "name_ru": "Миришкорский район"
@@ -387,6 +435,7 @@
     "id": 65,
     "region_id": 5,
     "soato_id": 1710234,
+    "type": "district",
     "name_uz": "Muborak tumani",
     "name_oz": "Муборак тумани",
     "name_ru": "Мубарекский район"
@@ -395,6 +444,7 @@
     "id": 66,
     "region_id": 5,
     "soato_id": 1710235,
+    "type": "district",
     "name_uz": "Nishon tumani",
     "name_oz": "Нишон тумани",
     "name_ru": "Нишанский район"
@@ -403,6 +453,7 @@
     "id": 67,
     "region_id": 5,
     "soato_id": 1710237,
+    "type": "district",
     "name_uz": "Kasbi tumani",
     "name_oz": "Касби тумани",
     "name_ru": "Касбинский район"
@@ -411,6 +462,7 @@
     "id": 68,
     "region_id": 5,
     "soato_id": 1710242,
+    "type": "district",
     "name_uz": "Chiroqchi tumani",
     "name_oz": "Чироқчи тумани",
     "name_ru": "Чиракчинский район"
@@ -419,6 +471,7 @@
     "id": 69,
     "region_id": 5,
     "soato_id": 1710245,
+    "type": "district",
     "name_uz": "Shahrisabz tumani",
     "name_oz": "Шаҳрисабз тумани",
     "name_ru": "Шахрисабзский район"
@@ -427,6 +480,7 @@
     "id": 70,
     "region_id": 5,
     "soato_id": 1710250,
+    "type": "district",
     "name_uz": "Yakkabog' tumani",
     "name_oz": "Яккабоғ тумани",
     "name_ru": "Яккабагский район"
@@ -435,22 +489,25 @@
     "id": 71,
     "region_id": 5,
     "soato_id": 1710401,
-    "name_uz": "Qarshi",
-    "name_oz": "Қарши",
-    "name_ru": "Карши"
+    "type": "city",
+    "name_uz": "Qarshi shahri",
+    "name_oz": "Қарши шаҳри",
+    "name_ru": "город Карши"
   },
   {
     "id": 72,
     "region_id": 5,
     "soato_id": 1710405,
-    "name_uz": "Shahrisabz",
-    "name_oz": "Шаҳрисабз",
-    "name_ru": "Шахрисабз"
+    "type": "city",
+    "name_uz": "Shahrisabz shahri",
+    "name_oz": "Шаҳрисабз шаҳри",
+    "name_ru": "город Шахрисабз"
   },
   {
     "id": 73,
     "region_id": 6,
     "soato_id": 1712211,
+    "type": "district",
     "name_uz": "Konimex tumani",
     "name_oz": "Конимех тумани",
     "name_ru": "Канимехский район"
@@ -459,6 +516,7 @@
     "id": 74,
     "region_id": 6,
     "soato_id": 1712216,
+    "type": "district",
     "name_uz": "Qiziltepa tumani",
     "name_oz": "Қизилтепа тумани",
     "name_ru": "Кызылтепинский район"
@@ -467,6 +525,7 @@
     "id": 75,
     "region_id": 6,
     "soato_id": 1712230,
+    "type": "district",
     "name_uz": "Navbahor tumani",
     "name_oz": "Навбаҳор тумани",
     "name_ru": "Навбахорский район"
@@ -475,6 +534,7 @@
     "id": 76,
     "region_id": 6,
     "soato_id": 1712234,
+    "type": "district",
     "name_uz": "Karmana tumani",
     "name_oz": "Кармана тумани",
     "name_ru": "Карманинский район"
@@ -483,6 +543,7 @@
     "id": 77,
     "region_id": 6,
     "soato_id": 1712238,
+    "type": "district",
     "name_uz": "Nurota tumani",
     "name_oz": "Нурота тумани",
     "name_ru": "Нуратинский район"
@@ -491,6 +552,7 @@
     "id": 78,
     "region_id": 6,
     "soato_id": 1712244,
+    "type": "district",
     "name_uz": "Tomdi tumani",
     "name_oz": "Томди тумани",
     "name_ru": "Тамдынский район"
@@ -499,6 +561,7 @@
     "id": 79,
     "region_id": 6,
     "soato_id": 1712248,
+    "type": "district",
     "name_uz": "Uchquduq tumani",
     "name_oz": "Учқудуқ тумани",
     "name_ru": "Учкудукский район"
@@ -507,6 +570,7 @@
     "id": 80,
     "region_id": 6,
     "soato_id": 1712251,
+    "type": "district",
     "name_uz": "Xatirchi tumani",
     "name_oz": "Хатирчи тумани",
     "name_ru": "Хатырчинский район"
@@ -515,14 +579,16 @@
     "id": 81,
     "region_id": 6,
     "soato_id": 1712401,
-    "name_uz": "Navoiy",
-    "name_oz": "Навоий",
-    "name_ru": "Навои"
+    "type": "city",
+    "name_uz": "Navoiy shahri",
+    "name_oz": "Навоий шаҳри",
+    "name_ru": "город Навои"
   },
   {
     "id": 83,
     "region_id": 7,
     "soato_id": 1714204,
+    "type": "district",
     "name_uz": "Mingbuloq tumani",
     "name_oz": "Мингбулоқ тумани",
     "name_ru": "Мингбулакский район"
@@ -531,6 +597,7 @@
     "id": 84,
     "region_id": 7,
     "soato_id": 1714207,
+    "type": "district",
     "name_uz": "Kosonsoy tumani",
     "name_oz": "Косонсой тумани",
     "name_ru": "Касансайский район"
@@ -539,6 +606,7 @@
     "id": 85,
     "region_id": 7,
     "soato_id": 1714212,
+    "type": "district",
     "name_uz": "Namangan tumani",
     "name_oz": "Наманган тумани",
     "name_ru": "Наманганский район"
@@ -547,6 +615,7 @@
     "id": 86,
     "region_id": 7,
     "soato_id": 1714216,
+    "type": "district",
     "name_uz": "Norin tumani",
     "name_oz": "Норин тумани",
     "name_ru": "Нарынский район"
@@ -555,6 +624,7 @@
     "id": 87,
     "region_id": 7,
     "soato_id": 1714219,
+    "type": "district",
     "name_uz": "Pop tumani",
     "name_oz": "Поп тумани",
     "name_ru": "Папский район"
@@ -563,6 +633,7 @@
     "id": 88,
     "region_id": 7,
     "soato_id": 1714224,
+    "type": "district",
     "name_uz": "To'raqo'rg'on tumani",
     "name_oz": "Тўрақўрғон тумани",
     "name_ru": "Туракурганский район"
@@ -571,6 +642,7 @@
     "id": 89,
     "region_id": 7,
     "soato_id": 1714229,
+    "type": "district",
     "name_uz": "Uychi tumani",
     "name_oz": "Уйчи тумани",
     "name_ru": "Уйчинский район"
@@ -579,6 +651,7 @@
     "id": 90,
     "region_id": 7,
     "soato_id": 1714234,
+    "type": "district",
     "name_uz": "Uchqo'rg'on tumani",
     "name_oz": "Учқўрғон тумани",
     "name_ru": "Учкурганский район"
@@ -587,6 +660,7 @@
     "id": 91,
     "region_id": 7,
     "soato_id": 1714236,
+    "type": "district",
     "name_uz": "Chortoq tumani",
     "name_oz": "Чортоқ тумани",
     "name_ru": "Чартакский район"
@@ -595,6 +669,7 @@
     "id": 92,
     "region_id": 7,
     "soato_id": 1714237,
+    "type": "district",
     "name_uz": "Chust tumani",
     "name_oz": "Чуст тумани",
     "name_ru": "Чустский район"
@@ -603,6 +678,7 @@
     "id": 93,
     "region_id": 7,
     "soato_id": 1714242,
+    "type": "district",
     "name_uz": "Yangiqo'rg'on tumani",
     "name_oz": "Янгиқўрғон тумани",
     "name_ru": "Янгикурганский район"
@@ -611,14 +687,16 @@
     "id": 94,
     "region_id": 7,
     "soato_id": 1714401,
-    "name_uz": "Namangan",
-    "name_oz": "Наманган",
-    "name_ru": "Наманган"
+    "type": "city",
+    "name_uz": "Namangan shahri",
+    "name_oz": "Наманган шаҳри",
+    "name_ru": "город Наманган"
   },
   {
     "id": 95,
     "region_id": 8,
     "soato_id": 1718203,
+    "type": "district",
     "name_uz": "Oqdaryo tumani",
     "name_oz": "Оқдарё тумани",
     "name_ru": "Акдарьинский район"
@@ -627,6 +705,7 @@
     "id": 96,
     "region_id": 8,
     "soato_id": 1718206,
+    "type": "district",
     "name_uz": "Bulung'ur tumani",
     "name_oz": "Булунғур тумани",
     "name_ru": "Булунгурский район"
@@ -635,6 +714,7 @@
     "id": 97,
     "region_id": 8,
     "soato_id": 1718209,
+    "type": "district",
     "name_uz": "Jomboy tumani",
     "name_oz": "Жомбой тумани",
     "name_ru": "Джамбайский район"
@@ -643,6 +723,7 @@
     "id": 98,
     "region_id": 8,
     "soato_id": 1718212,
+    "type": "district",
     "name_uz": "Ishtixon tumani",
     "name_oz": "Иштихон тумани",
     "name_ru": "Иштыханский район"
@@ -651,6 +732,7 @@
     "id": 99,
     "region_id": 8,
     "soato_id": 1718215,
+    "type": "district",
     "name_uz": "Kattaqo'rg'on tumani",
     "name_oz": "Каттақўрғон тумани",
     "name_ru": "Каттакурганский район"
@@ -659,6 +741,7 @@
     "id": 100,
     "region_id": 8,
     "soato_id": 1718216,
+    "type": "district",
     "name_uz": "Qo'shrabot tumani",
     "name_oz": "Қўшработ тумани",
     "name_ru": "Кушрабадский район"
@@ -667,6 +750,7 @@
     "id": 101,
     "region_id": 8,
     "soato_id": 1718218,
+    "type": "district",
     "name_uz": "Narpay tumani",
     "name_oz": "Нарпай тумани",
     "name_ru": "Нарпайский район"
@@ -675,6 +759,7 @@
     "id": 102,
     "region_id": 8,
     "soato_id": 1718224,
+    "type": "district",
     "name_uz": "Payariq tumani",
     "name_oz": "Паяриқ тумани",
     "name_ru": "Пайарыкский район"
@@ -683,6 +768,7 @@
     "id": 103,
     "region_id": 8,
     "soato_id": 1718227,
+    "type": "district",
     "name_uz": "Pastdarg'om tumani",
     "name_oz": "Пастдарғом тумани",
     "name_ru": "Пастдаргомский район"
@@ -691,6 +777,7 @@
     "id": 104,
     "region_id": 8,
     "soato_id": 1718230,
+    "type": "district",
     "name_uz": "Paxtachi tumani",
     "name_oz": "Пахтачи тумани",
     "name_ru": "Пахтачийский район"
@@ -699,6 +786,7 @@
     "id": 105,
     "region_id": 8,
     "soato_id": 1718233,
+    "type": "district",
     "name_uz": "Samarqand tumani",
     "name_oz": "Самарқанд тумани",
     "name_ru": "Самаркандский район"
@@ -707,6 +795,7 @@
     "id": 106,
     "region_id": 8,
     "soato_id": 1718235,
+    "type": "district",
     "name_uz": "Nurobod tumani",
     "name_oz": "Нуробод тумани",
     "name_ru": "Нурабадский район"
@@ -715,6 +804,7 @@
     "id": 107,
     "region_id": 8,
     "soato_id": 1718236,
+    "type": "district",
     "name_uz": "Urgut tumani",
     "name_oz": "Ургут тумани",
     "name_ru": "Ургутский район"
@@ -723,6 +813,7 @@
     "id": 108,
     "region_id": 8,
     "soato_id": 1718238,
+    "type": "district",
     "name_uz": "Tayloq tumani",
     "name_oz": "Тайлоқ тумани",
     "name_ru": "Тайлякский район"
@@ -731,22 +822,25 @@
     "id": 109,
     "region_id": 8,
     "soato_id": 1718401,
-    "name_uz": "Samarqand",
-    "name_oz": "Самарқанд",
-    "name_ru": "Самарканд"
+    "type": "city",
+    "name_uz": "Samarqand shahri",
+    "name_oz": "Самарқанд шаҳри",
+    "name_ru": "город Самарканд"
   },
   {
     "id": 110,
     "region_id": 8,
     "soato_id": 1718406,
-    "name_uz": "Kattaqo'rg'on",
-    "name_oz": "Каттақўрғон",
-    "name_ru": "Каттакурган"
+    "type": "city",
+    "name_uz": "Kattaqo'rg'on shahri",
+    "name_oz": "Каттақўрғон шаҳри",
+    "name_ru": "город Каттакурган"
   },
   {
     "id": 111,
     "region_id": 5723,
     "soato_id": 1722201,
+    "type": "district",
     "name_uz": "Oltinsoy tumani",
     "name_oz": "Олтинсой тумани",
     "name_ru": "Алтынсайский район"
@@ -755,6 +849,7 @@
     "id": 112,
     "region_id": 5723,
     "soato_id": 1722202,
+    "type": "district",
     "name_uz": "Angor tumani",
     "name_oz": "Ангор тумани",
     "name_ru": "Ангорский район"
@@ -763,6 +858,7 @@
     "id": 113,
     "region_id": 5723,
     "soato_id": 1722204,
+    "type": "district",
     "name_uz": "Boysun tumani",
     "name_oz": "Бойсун тумани",
     "name_ru": "Байсунский район"
@@ -771,6 +867,7 @@
     "id": 114,
     "region_id": 5723,
     "soato_id": 1722207,
+    "type": "district",
     "name_uz": "Muzrabot tumani",
     "name_oz": "Музработ тумани",
     "name_ru": "Музрабадский район"
@@ -779,6 +876,7 @@
     "id": 115,
     "region_id": 5723,
     "soato_id": 1722210,
+    "type": "district",
     "name_uz": "Denov tumani",
     "name_oz": "Денов тумани",
     "name_ru": "Денауский район"
@@ -787,6 +885,7 @@
     "id": 116,
     "region_id": 5723,
     "soato_id": 1722212,
+    "type": "district",
     "name_uz": "Jarqo'rg'on tumani",
     "name_oz": "Жарқўрғон тумани",
     "name_ru": "Джаркурганский район"
@@ -795,6 +894,7 @@
     "id": 117,
     "region_id": 5723,
     "soato_id": 1722214,
+    "type": "district",
     "name_uz": "Qumqo'rg'on tumani",
     "name_oz": "Қумқўрғон тумани",
     "name_ru": "Кумкурганский район"
@@ -803,6 +903,7 @@
     "id": 118,
     "region_id": 5723,
     "soato_id": 1722215,
+    "type": "district",
     "name_uz": "Qiziriq tumani",
     "name_oz": "Қизириқ тумани",
     "name_ru": "Кизирикский район"
@@ -811,6 +912,7 @@
     "id": 119,
     "region_id": 5723,
     "soato_id": 1722217,
+    "type": "district",
     "name_uz": "Sariosiyo tumani",
     "name_oz": "Сариосиё тумани",
     "name_ru": "Сариасийский район"
@@ -819,6 +921,7 @@
     "id": 120,
     "region_id": 5723,
     "soato_id": 1722220,
+    "type": "district",
     "name_uz": "Termiz tumani",
     "name_oz": "Термиз тумани",
     "name_ru": "Термезский район"
@@ -827,6 +930,7 @@
     "id": 121,
     "region_id": 5723,
     "soato_id": 1722221,
+    "type": "district",
     "name_uz": "Uzun tumani",
     "name_oz": "Узун тумани",
     "name_ru": "Узунский район"
@@ -835,6 +939,7 @@
     "id": 122,
     "region_id": 5723,
     "soato_id": 1722223,
+    "type": "district",
     "name_uz": "Sherobod tumani",
     "name_oz": "Шеробод тумани",
     "name_ru": "Шерабадский район"
@@ -843,6 +948,7 @@
     "id": 123,
     "region_id": 5723,
     "soato_id": 1722226,
+    "type": "district",
     "name_uz": "Sho'rchi tumani",
     "name_oz": "Шўрчи тумани",
     "name_ru": "Шурчинский район"
@@ -851,6 +957,7 @@
     "id": 125,
     "region_id": 10,
     "soato_id": 1724206,
+    "type": "district",
     "name_uz": "Oqoltin tumani",
     "name_oz": "Оқолтин тумани",
     "name_ru": "Акалтынский район"
@@ -859,6 +966,7 @@
     "id": 126,
     "region_id": 10,
     "soato_id": 1724212,
+    "type": "district",
     "name_uz": "Boyovut tumani",
     "name_oz": "Боёвут тумани",
     "name_ru": "Баяутский район"
@@ -867,6 +975,7 @@
     "id": 127,
     "region_id": 10,
     "soato_id": 1724216,
+    "type": "district",
     "name_uz": "Sayxunobod tumani",
     "name_oz": "Сайхунобод тумани",
     "name_ru": "Сайхунабадский район"
@@ -875,6 +984,7 @@
     "id": 128,
     "region_id": 10,
     "soato_id": 1724220,
+    "type": "district",
     "name_uz": "Guliston tumani",
     "name_oz": "Гулистон тумани",
     "name_ru": "Гулистанский район"
@@ -883,6 +993,7 @@
     "id": 129,
     "region_id": 10,
     "soato_id": 1724226,
+    "type": "district",
     "name_uz": "Sardoba tumani",
     "name_oz": "Сардоба тумани",
     "name_ru": "Сардобинский район"
@@ -891,6 +1002,7 @@
     "id": 130,
     "region_id": 10,
     "soato_id": 1724228,
+    "type": "district",
     "name_uz": "Mirzaobod tumani",
     "name_oz": "Мирзаобод тумани",
     "name_ru": "Мирзаабадский район"
@@ -899,6 +1011,7 @@
     "id": 131,
     "region_id": 10,
     "soato_id": 1724231,
+    "type": "district",
     "name_uz": "Sirdaryo tumani",
     "name_oz": "Сирдарё тумани",
     "name_ru": "Сырдарьинский район"
@@ -907,6 +1020,7 @@
     "id": 132,
     "region_id": 10,
     "soato_id": 1724235,
+    "type": "district",
     "name_uz": "Xovos tumani",
     "name_oz": "Ховос тумани",
     "name_ru": "Хавастский район"
@@ -915,30 +1029,34 @@
     "id": 133,
     "region_id": 10,
     "soato_id": 1724401,
-    "name_uz": "Guliston",
-    "name_oz": "Гулистон",
-    "name_ru": "Гулистан"
+    "type": "city",
+    "name_uz": "Guliston shahri",
+    "name_oz": "Гулистон шаҳри",
+    "name_ru": "город Гулистан"
   },
   {
     "id": 134,
     "region_id": 10,
     "soato_id": 1724410,
-    "name_uz": "Shirin",
-    "name_oz": "Ширин",
-    "name_ru": "Ширин"
+    "type": "city",
+    "name_uz": "Shirin shahri",
+    "name_oz": "Ширин шаҳри",
+    "name_ru": "город Ширин"
   },
   {
     "id": 135,
     "region_id": 10,
     "soato_id": 1724413,
-    "name_uz": "Yangiyer",
-    "name_oz": "Янгиер",
-    "name_ru": "Янгиер"
+    "type": "city",
+    "name_uz": "Yangiyer shahri",
+    "name_oz": "Янгиер шаҳри",
+    "name_ru": "город Янгиер"
   },
   {
     "id": 137,
     "region_id": 11,
     "soato_id": 1726262,
+    "type": "district",
     "name_uz": "Uchtepa tumani",
     "name_oz": "Учтепа тумани",
     "name_ru": "Учтепинский район"
@@ -947,6 +1065,7 @@
     "id": 138,
     "region_id": 11,
     "soato_id": 1726264,
+    "type": "district",
     "name_uz": "Bektemir tumani",
     "name_oz": "Бектемир тумани",
     "name_ru": "Бектемирский район"
@@ -955,6 +1074,7 @@
     "id": 139,
     "region_id": 11,
     "soato_id": 1726266,
+    "type": "district",
     "name_uz": "Yunusobod tumani",
     "name_oz": "Юнусобод тумани",
     "name_ru": "Юнусабадский район"
@@ -963,6 +1083,7 @@
     "id": 140,
     "region_id": 11,
     "soato_id": 1726269,
+    "type": "district",
     "name_uz": "Mirzo Ulug'bek tumani",
     "name_oz": "Мирзо Улуғбек тумани",
     "name_ru": "Мирзо-Улугбекский район"
@@ -971,6 +1092,7 @@
     "id": 141,
     "region_id": 11,
     "soato_id": 1726273,
+    "type": "district",
     "name_uz": "Mirobod tumani",
     "name_oz": "Миробод тумани",
     "name_ru": "Мирабадский район"
@@ -979,6 +1101,7 @@
     "id": 142,
     "region_id": 11,
     "soato_id": 1726277,
+    "type": "district",
     "name_uz": "Shayxontohur tumani",
     "name_oz": "Шайхонтоҳур тумани",
     "name_ru": "Шайхантахурский район"
@@ -987,6 +1110,7 @@
     "id": 143,
     "region_id": 11,
     "soato_id": 1726280,
+    "type": "district",
     "name_uz": "Olmazor tumani",
     "name_oz": "Олмазор тумани",
     "name_ru": "Алмазарский район"
@@ -995,6 +1119,7 @@
     "id": 144,
     "region_id": 11,
     "soato_id": 1726283,
+    "type": "district",
     "name_uz": "Sirg'ali tumani",
     "name_oz": "Сирғали тумани",
     "name_ru": "Сергелийский район"
@@ -1003,6 +1128,7 @@
     "id": 145,
     "region_id": 11,
     "soato_id": 1726287,
+    "type": "district",
     "name_uz": "Yakkasaroy tumani",
     "name_oz": "Яккасарой тумани",
     "name_ru": "Яккасарайский район"
@@ -1011,6 +1137,7 @@
     "id": 146,
     "region_id": 11,
     "soato_id": 1726290,
+    "type": "district",
     "name_uz": "Yashnobod tumani",
     "name_oz": "Яшнобод тумани",
     "name_ru": "Яшнабадский район"
@@ -1019,6 +1146,7 @@
     "id": 147,
     "region_id": 11,
     "soato_id": 1726294,
+    "type": "district",
     "name_uz": "Chilonzor tumani",
     "name_oz": "Чилонзор тумани",
     "name_ru": "Чиланзарский район"
@@ -1027,6 +1155,7 @@
     "id": 148,
     "region_id": 12,
     "soato_id": 1727206,
+    "type": "district",
     "name_uz": "Oqqo'rg'on tumani",
     "name_oz": "Оққўрғон тумани",
     "name_ru": "Аккурганский район"
@@ -1035,6 +1164,7 @@
     "id": 149,
     "region_id": 12,
     "soato_id": 1727212,
+    "type": "district",
     "name_uz": "Ohangaron tumani",
     "name_oz": "Оҳангарон тумани",
     "name_ru": "Ахангаранский район"
@@ -1043,6 +1173,7 @@
     "id": 150,
     "region_id": 12,
     "soato_id": 1727220,
+    "type": "district",
     "name_uz": "Bekobod tumani",
     "name_oz": "Бекобод тумани",
     "name_ru": "Бекабадский район"
@@ -1051,6 +1182,7 @@
     "id": 151,
     "region_id": 12,
     "soato_id": 1727224,
+    "type": "district",
     "name_uz": "Bo'stonliq tumani",
     "name_oz": "Бўстонлиқ тумани",
     "name_ru": "Бостанлыкский район"
@@ -1059,6 +1191,7 @@
     "id": 152,
     "region_id": 12,
     "soato_id": 1727228,
+    "type": "district",
     "name_uz": "Bo'ka tumani",
     "name_oz": "Бўка тумани",
     "name_ru": "Букинский район"
@@ -1067,6 +1200,7 @@
     "id": 154,
     "region_id": 12,
     "soato_id": 1727237,
+    "type": "district",
     "name_uz": "Zangiota tumani",
     "name_oz": "Зангиота тумани",
     "name_ru": "Зангиатинский район"
@@ -1075,6 +1209,7 @@
     "id": 155,
     "region_id": 12,
     "soato_id": 1727239,
+    "type": "district",
     "name_uz": "Yuqorichirchiq tumani",
     "name_oz": "Юқоричирчиқ тумани",
     "name_ru": "Юкоричирчикский район"
@@ -1083,6 +1218,7 @@
     "id": 156,
     "region_id": 12,
     "soato_id": 1727248,
+    "type": "district",
     "name_uz": "Qibray tumani",
     "name_oz": "Қибрай тумани",
     "name_ru": "Кибрайский район"
@@ -1091,6 +1227,7 @@
     "id": 157,
     "region_id": 12,
     "soato_id": 1727249,
+    "type": "district",
     "name_uz": "Parkent tumani",
     "name_oz": "Паркент тумани",
     "name_ru": "Паркентский район"
@@ -1099,6 +1236,7 @@
     "id": 158,
     "region_id": 12,
     "soato_id": 1727250,
+    "type": "district",
     "name_uz": "Piskent tumani",
     "name_oz": "Пискент тумани",
     "name_ru": "Пскентский район"
@@ -1107,6 +1245,7 @@
     "id": 159,
     "region_id": 12,
     "soato_id": 1727253,
+    "type": "district",
     "name_uz": "O'rtachirchiq tumani",
     "name_oz": "Ўртачирчиқ тумани",
     "name_ru": "Уртачирчикский район"
@@ -1115,6 +1254,7 @@
     "id": 160,
     "region_id": 12,
     "soato_id": 1727256,
+    "type": "district",
     "name_uz": "Chinoz tumani",
     "name_oz": "Чиноз тумани",
     "name_ru": "Чиназский район"
@@ -1123,6 +1263,7 @@
     "id": 161,
     "region_id": 12,
     "soato_id": 1727259,
+    "type": "district",
     "name_uz": "Yangiyo'l tumani",
     "name_oz": "Янгийўл тумани",
     "name_ru": "Янгиюльский район"
@@ -1131,6 +1272,7 @@
     "id": 162,
     "region_id": 12,
     "soato_id": 1727265,
+    "type": "district",
     "name_uz": "Toshkent tumani",
     "name_oz": "Тошкент тумани",
     "name_ru": "Ташкентский район"
@@ -1139,62 +1281,70 @@
     "id": 163,
     "region_id": 12,
     "soato_id": 1727401,
-    "name_uz": "Nurafshon",
-    "name_oz": "Нурафшон",
-    "name_ru": "Нурафшон"
+    "type": "city",
+    "name_uz": "Nurafshon shahri",
+    "name_oz": "Нурафшон шаҳри",
+    "name_ru": "город Нурафшон"
   },
   {
     "id": 164,
     "region_id": 12,
     "soato_id": 1727404,
-    "name_uz": "Olmaliq",
-    "name_oz": "Олмалиқ",
-    "name_ru": "Алмалык"
+    "type": "city",
+    "name_uz": "Olmaliq shahri",
+    "name_oz": "Олмалиқ шаҳри",
+    "name_ru": "город Алмалык"
   },
   {
     "id": 165,
     "region_id": 12,
     "soato_id": 1727407,
-    "name_uz": "Angren",
-    "name_oz": "Ангрен",
-    "name_ru": "Ангрен"
+    "type": "city",
+    "name_uz": "Angren shahri",
+    "name_oz": "Ангрен шаҳри",
+    "name_ru": "город Ангрен"
   },
   {
     "id": 166,
     "region_id": 12,
     "soato_id": 1727413,
-    "name_uz": "Bekobod",
-    "name_oz": "Бекобод",
-    "name_ru": "Бекабад"
+    "type": "city",
+    "name_uz": "Bekobod shahri",
+    "name_oz": "Бекобод шаҳри",
+    "name_ru": "город Бекабад"
   },
   {
     "id": 167,
     "region_id": 12,
     "soato_id": 1727415,
-    "name_uz": "Ohangaron",
-    "name_oz": "Оҳангарон",
-    "name_ru": "Ахангаран"
+    "type": "city",
+    "name_uz": "Ohangaron shahri",
+    "name_oz": "Оҳангарон шаҳри",
+    "name_ru": "город Ахангаран"
   },
   {
     "id": 168,
     "region_id": 12,
     "soato_id": 1727419,
-    "name_uz": "Chirchiq",
-    "name_oz": "Чирчиқ",
-    "name_ru": "Чирчик"
+    "type": "city",
+    "name_uz": "Chirchiq shahri",
+    "name_oz": "Чирчиқ шаҳри",
+    "name_ru": "город Чирчик"
   },
   {
     "id": 169,
     "region_id": 12,
     "soato_id": 1727424,
-    "name_uz": "Yangiyo'l",
-    "name_oz": "Янгийўл",
-    "name_ru": "Янгиюль"
+    "type": "city",
+    "name_uz": "Yangiyo'l shahri",
+    "name_oz": "Янгийўл шаҳри",
+    "name_ru": "город Янгиюль"
   },
   {
     "id": 170,
     "region_id": 13,
     "soato_id": 1730203,
+    "type": "district",
     "name_uz": "Oltiariq tumani",
     "name_oz": "Олтиариқ тумани",
     "name_ru": "Алтыарыкский район"
@@ -1203,6 +1353,7 @@
     "id": 171,
     "region_id": 13,
     "soato_id": 1730206,
+    "type": "district",
     "name_uz": "Qo'shtepa tumani",
     "name_oz": "Қўштепа тумани",
     "name_ru": "Куштепинский район"
@@ -1211,6 +1362,7 @@
     "id": 172,
     "region_id": 13,
     "soato_id": 1730209,
+    "type": "district",
     "name_uz": "Bog'dod tumani",
     "name_oz": "Боғдод тумани",
     "name_ru": "Багдадский район"
@@ -1219,6 +1371,7 @@
     "id": 173,
     "region_id": 13,
     "soato_id": 1730212,
+    "type": "district",
     "name_uz": "Buvayda tumani",
     "name_oz": "Бувайда тумани",
     "name_ru": "Бувайдинский район"
@@ -1227,6 +1380,7 @@
     "id": 174,
     "region_id": 13,
     "soato_id": 1730215,
+    "type": "district",
     "name_uz": "Beshariq tumani",
     "name_oz": "Бешариқ тумани",
     "name_ru": "Бешарыкский район"
@@ -1235,6 +1389,7 @@
     "id": 175,
     "region_id": 13,
     "soato_id": 1730218,
+    "type": "district",
     "name_uz": "Quva tumani",
     "name_oz": "Қува тумани",
     "name_ru": "Кувинский район"
@@ -1243,6 +1398,7 @@
     "id": 176,
     "region_id": 13,
     "soato_id": 1730221,
+    "type": "district",
     "name_uz": "Uchko'prik tumani",
     "name_oz": "Учкўприк тумани",
     "name_ru": "Учкуприкский район"
@@ -1251,6 +1407,7 @@
     "id": 177,
     "region_id": 13,
     "soato_id": 1730224,
+    "type": "district",
     "name_uz": "Rishton tumani",
     "name_oz": "Риштон тумани",
     "name_ru": "Риштанский район"
@@ -1259,6 +1416,7 @@
     "id": 178,
     "region_id": 13,
     "soato_id": 1730226,
+    "type": "district",
     "name_uz": "So'x tumani",
     "name_oz": "Сўх тумани",
     "name_ru": "Сохский район"
@@ -1267,6 +1425,7 @@
     "id": 179,
     "region_id": 13,
     "soato_id": 1730227,
+    "type": "district",
     "name_uz": "Toshloq tumani",
     "name_oz": "Тошлоқ тумани",
     "name_ru": "Ташлакский район"
@@ -1275,6 +1434,7 @@
     "id": 180,
     "region_id": 13,
     "soato_id": 1730230,
+    "type": "district",
     "name_uz": "O'zbekiston tumani",
     "name_oz": "Ўзбекистон тумани",
     "name_ru": "Узбекистанский район"
@@ -1283,6 +1443,7 @@
     "id": 181,
     "region_id": 13,
     "soato_id": 1730233,
+    "type": "district",
     "name_uz": "Farg'ona tumani",
     "name_oz": "Фарғона тумани",
     "name_ru": "Ферганский район"
@@ -1291,6 +1452,7 @@
     "id": 182,
     "region_id": 13,
     "soato_id": 1730236,
+    "type": "district",
     "name_uz": "Dang'ara tumani",
     "name_oz": "Данғара тумани",
     "name_ru": "Дангаринский район"
@@ -1299,6 +1461,7 @@
     "id": 183,
     "region_id": 13,
     "soato_id": 1730238,
+    "type": "district",
     "name_uz": "Furqat tumani",
     "name_oz": "Фурқат тумани",
     "name_ru": "Фуркатский район"
@@ -1307,6 +1470,7 @@
     "id": 184,
     "region_id": 13,
     "soato_id": 1730242,
+    "type": "district",
     "name_uz": "Yozyovon tumani",
     "name_oz": "Ёзёвон тумани",
     "name_ru": "Язъяванский район"
@@ -1315,38 +1479,43 @@
     "id": 185,
     "region_id": 13,
     "soato_id": 1730401,
-    "name_uz": "Farg'ona",
-    "name_oz": "Фарғона",
-    "name_ru": "Фергана"
+    "type": "city",
+    "name_uz": "Farg'ona shahri",
+    "name_oz": "Фарғона шаҳри",
+    "name_ru": "город Фергана"
   },
   {
     "id": 186,
     "region_id": 13,
     "soato_id": 1730405,
-    "name_uz": "Qo'qon",
-    "name_oz": "Қўқон",
-    "name_ru": "Коканд"
+    "type": "city",
+    "name_uz": "Qo'qon shahri",
+    "name_oz": "Қўқон шаҳри",
+    "name_ru": "город Коканд"
   },
   {
     "id": 187,
     "region_id": 13,
     "soato_id": 1730408,
-    "name_uz": "Quvasoy",
-    "name_oz": "Қувасой",
-    "name_ru": "Кувасай"
+    "type": "city",
+    "name_uz": "Quvasoy shahri",
+    "name_oz": "Қувасой шаҳри",
+    "name_ru": "город Кувасай"
   },
   {
     "id": 188,
     "region_id": 13,
     "soato_id": 1730412,
-    "name_uz": "Marg'ilon",
-    "name_oz": "Марғилон",
-    "name_ru": "Маргилан"
+    "type": "city",
+    "name_uz": "Marg'ilon shahri",
+    "name_oz": "Марғилон шаҳри",
+    "name_ru": "город Маргилан"
   },
   {
     "id": 189,
     "region_id": 14,
     "soato_id": 1733204,
+    "type": "district",
     "name_uz": "Bog'ot tumani",
     "name_oz": "Боғот тумани",
     "name_ru": "Багатский район"
@@ -1355,6 +1524,7 @@
     "id": 190,
     "region_id": 14,
     "soato_id": 1733208,
+    "type": "district",
     "name_uz": "Gurlan tumani",
     "name_oz": "Гурлан тумани",
     "name_ru": "Гурленский район"
@@ -1363,6 +1533,7 @@
     "id": 191,
     "region_id": 14,
     "soato_id": 1733212,
+    "type": "district",
     "name_uz": "Qo'shko'pir tumani",
     "name_oz": "Қўшкўпир тумани",
     "name_ru": "Кошкупырский район"
@@ -1371,6 +1542,7 @@
     "id": 192,
     "region_id": 14,
     "soato_id": 1733217,
+    "type": "district",
     "name_uz": "Urganch tumani",
     "name_oz": "Урганч тумани",
     "name_ru": "Ургенчский район"
@@ -1379,6 +1551,7 @@
     "id": 193,
     "region_id": 14,
     "soato_id": 1733220,
+    "type": "district",
     "name_uz": "Xazorasp tumani",
     "name_oz": "Хазорасп тумани",
     "name_ru": "Хазараспский район"
@@ -1387,6 +1560,7 @@
     "id": 194,
     "region_id": 14,
     "soato_id": 1733223,
+    "type": "district",
     "name_uz": "Xonqa tumani",
     "name_oz": "Хонқа тумани",
     "name_ru": "Ханкинский район"
@@ -1395,6 +1569,7 @@
     "id": 195,
     "region_id": 14,
     "soato_id": 1733226,
+    "type": "district",
     "name_uz": "Xiva tumani",
     "name_oz": "Хива тумани",
     "name_ru": "Хивинский район"
@@ -1403,6 +1578,7 @@
     "id": 196,
     "region_id": 14,
     "soato_id": 1733230,
+    "type": "district",
     "name_uz": "Shovot tumani",
     "name_oz": "Шовот тумани",
     "name_ru": "Шаватский район"
@@ -1411,6 +1587,7 @@
     "id": 197,
     "region_id": 14,
     "soato_id": 1733233,
+    "type": "district",
     "name_uz": "Yangiariq tumani",
     "name_oz": "Янгиариқ тумани",
     "name_ru": "Янгиарыкский район"
@@ -1419,6 +1596,7 @@
     "id": 198,
     "region_id": 14,
     "soato_id": 1733236,
+    "type": "district",
     "name_uz": "Yangibozor tumani",
     "name_oz": "Янгибозор тумани",
     "name_ru": "Янгибазарский район"
@@ -1427,22 +1605,25 @@
     "id": 199,
     "region_id": 14,
     "soato_id": 1733401,
-    "name_uz": "Urganch",
-    "name_oz": "Урганч",
-    "name_ru": "Ургенч"
+    "type": "city",
+    "name_uz": "Urganch shahri",
+    "name_oz": "Урганч шаҳри",
+    "name_ru": "город Ургенч"
   },
   {
     "id": 200,
     "region_id": 14,
     "soato_id": 1733406,
-    "name_uz": "Xiva",
-    "name_oz": "Хива",
-    "name_ru": "Хива"
+    "type": "city",
+    "name_uz": "Xiva shahri",
+    "name_oz": "Хива шаҳри",
+    "name_ru": "город Хива"
   },
   {
     "id": 201,
     "region_id": 15,
     "soato_id": 1735204,
+    "type": "district",
     "name_uz": "Amudaryo tumani",
     "name_oz": "Амударё тумани",
     "name_ru": "Амударьинский район"
@@ -1451,6 +1632,7 @@
     "id": 202,
     "region_id": 15,
     "soato_id": 1735207,
+    "type": "district",
     "name_uz": "Beruniy tumani",
     "name_oz": "Беруний тумани",
     "name_ru": "Берунийский район"
@@ -1459,6 +1641,7 @@
     "id": 203,
     "region_id": 15,
     "soato_id": 1735211,
+    "type": "district",
     "name_uz": "Qorao'zak tumani",
     "name_oz": "Қораўзак тумани",
     "name_ru": "Караузякский район"
@@ -1467,6 +1650,7 @@
     "id": 204,
     "region_id": 15,
     "soato_id": 1735212,
+    "type": "district",
     "name_uz": "Kegeyli tumani",
     "name_oz": "Кегейли тумани",
     "name_ru": "Кегейлийский район"
@@ -1475,6 +1659,7 @@
     "id": 205,
     "region_id": 15,
     "soato_id": 1735215,
+    "type": "district",
     "name_uz": "Qo'ng'irot tumani",
     "name_oz": "Қўнғирот тумани",
     "name_ru": "Кунградский район"
@@ -1483,6 +1668,7 @@
     "id": 206,
     "region_id": 15,
     "soato_id": 1735218,
+    "type": "district",
     "name_uz": "Qanliko'l tumani",
     "name_oz": "Қанликўл тумани",
     "name_ru": "Канлыкульский район"
@@ -1491,6 +1677,7 @@
     "id": 207,
     "region_id": 15,
     "soato_id": 1735222,
+    "type": "district",
     "name_uz": "Mo'ynoq tumani",
     "name_oz": "Мўйноқ тумани",
     "name_ru": "Муйнакский район"
@@ -1499,6 +1686,7 @@
     "id": 208,
     "region_id": 15,
     "soato_id": 1735225,
+    "type": "district",
     "name_uz": "Nukus tumani",
     "name_oz": "Нукус тумани",
     "name_ru": "Нукусский район"
@@ -1507,6 +1695,7 @@
     "id": 209,
     "region_id": 15,
     "soato_id": 1735228,
+    "type": "district",
     "name_uz": "Taxiatosh tumani",
     "name_oz": "Тахиатош тумани",
     "name_ru": "Тахиаташский район"
@@ -1515,6 +1704,7 @@
     "id": 210,
     "region_id": 15,
     "soato_id": 1735230,
+    "type": "district",
     "name_uz": "Taxtako'pir tumani",
     "name_oz": "Тахтакўпир тумани",
     "name_ru": "Тахтакупырский район"
@@ -1523,6 +1713,7 @@
     "id": 211,
     "region_id": 15,
     "soato_id": 1735233,
+    "type": "district",
     "name_uz": "To'rtko'l tumani",
     "name_oz": "Тўрткўл тумани",
     "name_ru": "Турткульский район"
@@ -1531,6 +1722,7 @@
     "id": 212,
     "region_id": 15,
     "soato_id": 1735236,
+    "type": "district",
     "name_uz": "Xo'jayli tumani",
     "name_oz": "Хўжайли тумани",
     "name_ru": "Ходжейлийский район"
@@ -1539,6 +1731,7 @@
     "id": 213,
     "region_id": 15,
     "soato_id": 1735240,
+    "type": "district",
     "name_uz": "Chimboy tumani",
     "name_oz": "Чимбой тумани",
     "name_ru": "Чимбайский район"
@@ -1547,6 +1740,7 @@
     "id": 214,
     "region_id": 15,
     "soato_id": 1735243,
+    "type": "district",
     "name_uz": "Shumanay tumani",
     "name_oz": "Шуманай тумани",
     "name_ru": "Шуманайский район"
@@ -1555,6 +1749,7 @@
     "id": 215,
     "region_id": 15,
     "soato_id": 1735250,
+    "type": "district",
     "name_uz": "Ellikqal'a tumani",
     "name_oz": "Элликқалъа тумани",
     "name_ru": "Элликкалинский район"
@@ -1563,14 +1758,16 @@
     "id": 216,
     "region_id": 15,
     "soato_id": 1735401,
-    "name_uz": "Nukus",
-    "name_oz": "Нукус",
-    "name_ru": "Нукус"
+    "type": "city",
+    "name_uz": "Nukus shahri",
+    "name_oz": "Нукус шаҳри",
+    "name_ru": "город Нукус"
   },
   {
     "id": 2905,
     "region_id": 4,
     "soato_id": 1708212,
+    "type": "district",
     "name_uz": "Sh.Rashidov tumani",
     "name_oz": "Ш.Рашидов тумани",
     "name_ru": "Ш.Рашидовский район"
@@ -1579,22 +1776,25 @@
     "id": 2939,
     "region_id": 6,
     "soato_id": 1712408,
-    "name_uz": "Zarafshon",
-    "name_oz": "Зарафшон",
-    "name_ru": "Зарафшан"
+    "type": "city",
+    "name_uz": "Zarafshon shahri",
+    "name_oz": "Зарафшон шаҳри",
+    "name_ru": "город Зарафшан"
   },
   {
     "id": 2981,
     "region_id": 5723,
     "soato_id": 1722401,
-    "name_uz": "Termiz",
-    "name_oz": "Термиз",
-    "name_ru": "Термез"
+    "type": "city",
+    "name_uz": "Termiz shahri",
+    "name_oz": "Термиз шаҳри",
+    "name_ru": "город Термез"
   },
   {
     "id": 5867,
     "region_id": 12,
     "soato_id": 1727233,
+    "type": "district",
     "name_uz": "Quyichirchiq tumani",
     "name_oz": "Қуйичирчиқ тумани",
     "name_ru": "Куйичирчикский район"
@@ -1603,14 +1803,16 @@
     "id": 8574,
     "region_id": 10,
     "soato_id": 1724414,
-    "name_uz": "Baxt",
-    "name_oz": "Бахт",
-    "name_ru": "Бахт"
+    "type": "city",
+    "name_uz": "Baxt shahri",
+    "name_oz": "Бахт шаҳри",
+    "name_ru": "город Бахт"
   },
   {
     "id": 8575,
     "region_id": 15,
     "soato_id": 1735209,
+    "type": "district",
     "name_uz": "Bo‘zatov tumani",
     "name_oz": "Бўзатов тумани",
     "name_ru": "Бузатовский район"
@@ -1619,6 +1821,7 @@
     "id": 8580,
     "region_id": 5723,
     "soato_id": 1722203,
+    "type": "district",
     "name_uz": "Bandixon tumani",
     "name_oz": "Бандихон тумани",
     "name_ru": "Бандиханский район"
@@ -1627,6 +1830,7 @@
     "id": 8581,
     "region_id": 14,
     "soato_id": 1733221,
+    "type": "district",
     "name_uz": "Tuproqqal’a tumani",
     "name_oz": "Тупроққалъа тумани",
     "name_ru": "Тупроккалинский район"
@@ -1635,14 +1839,16 @@
     "id": 8584,
     "region_id": 6,
     "soato_id": 1712412,
-    "name_uz": "G‘ozg‘on tumani",
-    "name_oz": "Ғозғон тумани",
-    "name_ru": "Газганский район"
+    "type": "city",
+    "name_uz": "G‘ozg‘on tumani shahri",
+    "name_oz": "Ғозғон тумани шаҳри",
+    "name_ru": "город Газганский район"
   },
   {
     "id": 8587,
     "region_id": 11,
     "soato_id": 1726292,
+    "type": "district",
     "name_uz": "Yangihayot tumani",
     "name_oz": "Янгиҳаёт тумани",
     "name_ru": "Янгихаётский район"
@@ -1651,6 +1857,7 @@
     "id": 8591,
     "region_id": 5,
     "soato_id": 1710240,
+    "type": "district",
     "name_uz": "Ko‘kdala tumani",
     "name_oz": "Кўкдала тумани",
     "name_ru": "Кукдалинский район"
@@ -1659,16 +1866,18 @@
     "id": 8595,
     "region_id": 7,
     "soato_id": 1714410,
-    "name_uz": "Davlatobod tumani",
-    "name_oz": "Давлатобод тумани",
-    "name_ru": "Давлатабадский район"
+    "type": "city",
+    "name_uz": "Davlatobod tumani shahri",
+    "name_oz": "Давлатобод тумани шаҳри",
+    "name_ru": "город Давлатабадский район"
   },
   {
     "id": 8601,
     "region_id": 7,
     "soato_id": 1714415,
-    "name_uz": "Yangi Namangan tumani",
-    "name_oz": "Янги Наманган тумани",
-    "name_ru": "Янги Наманганский район"
+    "type": "city",
+    "name_uz": "Yangi Namangan tumani shahri",
+    "name_oz": "Янги Наманган тумани шаҳри",
+    "name_ru": "город Янги Наманганский район"
   }
 ]

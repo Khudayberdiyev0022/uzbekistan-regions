@@ -15,6 +15,7 @@ class RegionController
   public function index(Request $request): ResourceCollection
   {
     $filters = $request->validate([
+      'type'     => ['nullable', 'in:region,city,republic'],
       'search'   => ['nullable', 'string', 'max:255'],
       'sort'     => ['nullable', 'in:id,name,soato_id,order'],
       'order'    => ['nullable', 'in:asc,desc'],
@@ -23,6 +24,7 @@ class RegionController
 
     $query = Region::query()
       ->withCount(['districts', 'quarters'])
+      ->ofType($filters['type'] ?? null)
       ->search($filters['search'] ?? null)
       ->sortBy($filters['sort'] ?? 'id', $filters['order'] ?? 'asc');
 

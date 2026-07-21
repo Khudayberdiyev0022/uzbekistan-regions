@@ -16,6 +16,7 @@ class DistrictController
   {
     $filters = $request->validate([
       'region_id' => ['nullable', 'integer', 'min:1'],
+      'type'      => ['nullable', 'in:district,city'],
       'search'    => ['nullable', 'string', 'max:255'],
       'sort'      => ['nullable', 'in:id,name,soato_id,order'],
       'order'     => ['nullable', 'in:asc,desc'],
@@ -25,6 +26,7 @@ class DistrictController
     $query = District::query()
       ->withCount('quarters')
       ->when($filters['region_id'] ?? null, fn ($q, $id) => $q->where('region_id', $id))
+      ->ofType($filters['type'] ?? null)
       ->search($filters['search'] ?? null)
       ->sortBy($filters['sort'] ?? 'id', $filters['order'] ?? 'asc');
 

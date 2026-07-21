@@ -1,5 +1,36 @@
 # Changelog
 
+## v1.1.0
+
+**Upgrading from v1.0.x requires two commands**, because both the schema and the data changed:
+
+```bash
+php artisan migrate
+php artisan uzbekistan-regions:seed
+```
+
+- Added a `type` column to `regions` (`region` / `city` / `republic`) and to `districts`
+  (`district` / `city`), derived from the SOATO code itself — the fifth digit is `4` for a
+  city and `2` for a district. 34 of the 209 districts are cities.
+- Added `District::ofType()`, `Region::ofType()` and `District::isCity()`, the model constants
+  behind them, and a `?type=` filter on the `/regions` and `/districts` endpoints. The `type`
+  is exposed in the API responses.
+- Cities are now named the way the classifier writes them: `Andijon` became `Andijon shahri`
+  / `Андижон шаҳри` / `город Андижан`, matching how `Toshkent shahri` was already stored.
+  This affects 34 records and is the reason for the minor version bump — a region and its
+  capital can no longer collide in a list.
+
+Verified against the ORS classifier (https://tasnif.joriy.uz): the name differences dropped
+from 36 to 11, and the remaining ones are mostly typos on the ORS side (`Shaxrixon`,
+`Shayxontoxur`). Three are worth a second look against the official classifier before the next
+release: `1703209` Bo'z vs Bo'ston, `1727250` Piskent vs Pskent, `1727401` Nurafshon shahri vs
+tumani.
+
+Coordinates and the English and Karakalpak names were considered and deliberately left out.
+The obvious source, ORS, carries no license at all, which makes its data all-rights-reserved;
+OpenStreetMap data is ODbL, whose share-alike terms would clash with the MIT license of this
+package.
+
 ## v1.0.1
 
 Data fixes only — no code or API changes.
