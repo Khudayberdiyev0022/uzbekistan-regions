@@ -18,10 +18,7 @@ return new class extends Migration {
       $table->string('name_uz');
       $table->string('name_oz');
       $table->string('name_ru')->nullable();
-      $table->integer('order')->default(1);
       $table->timestamps();
-
-      $table->index('order', 'idx_regions_order');
     });
   }
 

@@ -69,7 +69,6 @@ class UzbekistanRegionsSeeder extends Seeder
       'name_uz'    => $row['name_uz'],
       'name_oz'    => $row['name_oz'],
       'name_ru'    => $row['name_ru'] ?? null,
-      'order'      => $row['order'] ?? 1,
       'created_at' => $now,
       'updated_at' => $now,
     ];

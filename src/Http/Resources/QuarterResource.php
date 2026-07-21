@@ -14,7 +14,6 @@ class QuarterResource extends JsonResource
       'id'          => $this->id,
       'soato_id'    => $this->soato_id,
       'name'        => $this->getName(),
-      'order'       => $this->order,
       'district_id' => $this->district_id,
       'district'    => DistrictResource::make($this->whenLoaded('district')),
     ];

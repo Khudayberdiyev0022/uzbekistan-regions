@@ -93,7 +93,7 @@ The package registers these read-only endpoints automatically:
 | GET    | `/api/v1/quarters/{id}`  | quarter + district + region                 |
 
 Query parameters: `type` (`region` / `city` / `republic` for regions, `district` / `city` for
-districts), `search`, `sort` (`id`, `name`, `soato_id`, `order`), `order` (`asc` / `desc`) and
+districts), `search`, `sort` (`id`, `name`, `soato_id`), `order` (`asc` / `desc`) and
 `per_page` — when present, the response is paginated.
 
 The language is selected with the `Accept-Language` header: `uz` (default), `oz`, `ru`.
@@ -107,12 +107,20 @@ Responses use the standard Laravel resource format:
 ```json
 {
   "data": [
-    { "id": 2, "soato_id": "1703", "type": "region", "name": "Andijon viloyati", "order": 1, "districts_count": 14, "quarters_count": 305 }
+    { "id": 2, "soato_id": "1703", "type": "region", "name": "Andijon viloyati", "districts_count": 14, "quarters_count": 305 }
   ]
 }
 ```
 
 With `per_page` the usual `links` and `meta` blocks are added.
+
+## Data
+
+The names and SOATO codes come from the administrative-territorial classifier of Uzbekistan.
+This particular compilation was built from
+[MIMAXUZ/uzbekistan-regions-data](https://github.com/MIMAXUZ/uzbekistan-regions-data), taken in
+April 2025 and corrected since — see [`database/data/SOURCE.md`](database/data/SOURCE.md) for
+what was changed and for the open question about that repository's GPL-3.0 license.
 
 ## Configuration
 
@@ -144,4 +152,4 @@ Laravel 11 is still allowed by the version constraint but is no longer covered b
 
 ## License
 
-MIT.
+The code is MIT. For the data, see [`database/data/SOURCE.md`](database/data/SOURCE.md).

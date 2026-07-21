@@ -14,7 +14,6 @@ use Khudayberdiyev\UzbekistanRegions\Concerns\SoatoModel;
  * @property string $name_uz
  * @property string $name_oz
  * @property string|null $name_ru
- * @property int $order
  * @property int|null $districts_count
  * @property int|null $quarters_count
  */
@@ -33,7 +32,7 @@ class Region extends Model
 
   protected $table = 'regions';
 
-  protected $fillable = ['soato_id', 'type', 'name_uz', 'name_oz', 'name_ru', 'order'];
+  protected $fillable = ['soato_id', 'type', 'name_uz', 'name_oz', 'name_ru'];
 
   /**
    * Narrow the query down to one type, ignoring a null or empty value.

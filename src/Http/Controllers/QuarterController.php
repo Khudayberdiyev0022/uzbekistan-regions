@@ -18,7 +18,7 @@ class QuarterController
       'region_id'   => ['nullable', 'integer', 'min:1'],
       'district_id' => ['nullable', 'integer', 'min:1'],
       'search'      => ['nullable', 'string', 'max:255'],
-      'sort'        => ['nullable', 'in:id,name,soato_id,order'],
+      'sort'        => ['nullable', 'in:id,name,soato_id'],
       'order'       => ['nullable', 'in:asc,desc'],
       'per_page'    => ['nullable', 'integer', 'min:1', 'max:200'],
     ]);

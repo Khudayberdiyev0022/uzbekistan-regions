@@ -15,7 +15,6 @@ class RegionResource extends JsonResource
       'soato_id'        => $this->soato_id,
       'type'            => $this->type,
       'name'            => $this->getName(),
-      'order'           => $this->order,
       'districts_count' => $this->whenNotNull($this->districts_count),
       'quarters_count'  => $this->whenNotNull($this->quarters_count),
       'districts'       => DistrictResource::collection($this->whenLoaded('districts')),

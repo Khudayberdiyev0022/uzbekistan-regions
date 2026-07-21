@@ -15,7 +15,6 @@ use Khudayberdiyev\UzbekistanRegions\Concerns\SoatoModel;
  * @property string $name_uz
  * @property string $name_oz
  * @property string|null $name_ru
- * @property int $order
  * @property int|null $quarters_count
  */
 class District extends Model
@@ -30,7 +29,7 @@ class District extends Model
 
   protected $table = 'districts';
 
-  protected $fillable = ['region_id', 'soato_id', 'type', 'name_uz', 'name_oz', 'name_ru', 'order'];
+  protected $fillable = ['region_id', 'soato_id', 'type', 'name_uz', 'name_oz', 'name_ru'];
 
   public function isCity(): bool
   {

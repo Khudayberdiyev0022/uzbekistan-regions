@@ -13,7 +13,6 @@ use Khudayberdiyev\UzbekistanRegions\Concerns\SoatoModel;
  * @property string $name_uz
  * @property string $name_oz
  * @property string|null $name_ru
- * @property int $order
  */
 class Quarter extends Model
 {
@@ -21,7 +20,7 @@ class Quarter extends Model
 
   protected $table = 'quarters';
 
-  protected $fillable = ['district_id', 'soato_id', 'name_uz', 'name_oz', 'name_ru', 'order'];
+  protected $fillable = ['district_id', 'soato_id', 'name_uz', 'name_oz', 'name_ru'];
 
   public function district(): BelongsTo
   {

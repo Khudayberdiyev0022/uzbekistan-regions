@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.2.0
+
+- Documented where the dataset comes from. It was built from
+  [MIMAXUZ/uzbekistan-regions-data](https://github.com/MIMAXUZ/uzbekistan-regions-data), taken
+  in April 2025, and corrected since — `database/data/SOURCE.md` lists every change and states
+  the open question about that repository's GPL-3.0 license against this package's MIT.
+- Dropped the `order` column from `regions`, `districts` and `quarters`. It was never
+  populated: every row carried the default value of `1`, so `?sort=order` quietly did nothing
+  while being advertised as a sort option. It is gone from the API responses, from the `sort`
+  whitelist and from the models. The `?order=asc|desc` direction parameter is unaffected.
+
+Existing installations pick the schema change up with `php artisan migrate`; fresh ones never
+create the column.
+
 ## v1.1.1
 
 Fixes `search`, which did not work at all in Cyrillic outside PostgreSQL.

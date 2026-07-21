@@ -90,7 +90,7 @@ Paket avtomatik ravishda quyidagi read-only endpointlarni ro'yxatdan o'tkazadi:
 | GET    | `/api/v1/quarters/{id}` | Mahalla + tuman + viloyat                 |
 
 Query parametrlar: `type` (viloyatlar uchun `region` / `city` / `republic`, tumanlar uchun
-`district` / `city`), `search`, `sort` (`id`, `name`, `soato_id`, `order`),
+`district` / `city`), `search`, `sort` (`id`, `name`, `soato_id`),
 `order` (`asc` / `desc`), `per_page` (berilsa javob paginatsiya bilan qaytadi).
 
 Til `Accept-Language` header orqali tanlanadi — `uz` (default), `oz`, `ru`.
@@ -104,12 +104,20 @@ Javob — Laravel'ning standart resurs formati:
 ```json
 {
   "data": [
-    { "id": 2, "soato_id": "1703", "type": "region", "name": "Andijon viloyati", "order": 1, "districts_count": 14, "quarters_count": 305 }
+    { "id": 2, "soato_id": "1703", "type": "region", "name": "Andijon viloyati", "districts_count": 14, "quarters_count": 305 }
   ]
 }
 ```
 
 `per_page` berilganda javobga standart `links` va `meta` bloklari qo'shiladi.
+
+## Ma'lumot
+
+Nomlar va SOATO kodlari O'zbekiston ma'muriy-hududiy tasniflagichidan olingan. Bu to'plam
+[MIMAXUZ/uzbekistan-regions-data](https://github.com/MIMAXUZ/uzbekistan-regions-data)
+asosida, 2025-yil aprel holatiga qurilgan va keyin tuzatilgan — nimalar o'zgargani va o'sha
+repo'ning GPL-3.0 litsenziyasi bo'yicha ochiq savol [`database/data/SOURCE.md`](database/data/SOURCE.md)
+da yozilgan.
 
 ## Konfiguratsiya
 
@@ -141,4 +149,4 @@ yopilmagan xavfsizlik ogohlantirishlari bor va Composer uni o'rnatishdan bosh to
 
 ## Litsenziya
 
-MIT.
+Kod — MIT. Ma'lumot uchun [`database/data/SOURCE.md`](database/data/SOURCE.md) ga qarang.

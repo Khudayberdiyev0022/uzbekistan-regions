@@ -72,7 +72,7 @@ trait SoatoModel
    */
   public function scopeSortBy(Builder $query, ?string $column, ?string $direction = 'asc'): Builder
   {
-    $column = in_array($column, ['id', 'name', 'soato_id', 'order'], true) ? $column : 'id';
+    $column = in_array($column, ['id', 'name', 'soato_id'], true) ? $column : 'id';
 
     if ($column === 'name') {
       $column = 'name_'.static::locale();
