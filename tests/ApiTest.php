@@ -21,7 +21,7 @@ class ApiTest extends TestCase
   public function test_it_seeds_the_soato_dataset(): void
   {
     $this->assertSame(14, Region::count());
-    $this->assertSame(210, District::count());
+    $this->assertSame(209, District::count());
     $this->assertSame(2641, Quarter::count());
   }
 

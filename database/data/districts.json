@@ -61,7 +61,7 @@
     "soato_id": 1703217,
     "name_uz": "Ulug'nor tumani",
     "name_oz": "Улуғнор тумани",
-    "name_ru": "Улугноpский район"
+    "name_ru": "Улугнорский район"
   },
   {
     "id": 24,
@@ -525,7 +525,7 @@
     "soato_id": 1714204,
     "name_uz": "Mingbuloq tumani",
     "name_oz": "Мингбулоқ тумани",
-    "name_ru": "Мингбулакский pайон"
+    "name_ru": "Мингбулакский район"
   },
   {
     "id": 84,
@@ -925,7 +925,7 @@
     "soato_id": 1724410,
     "name_uz": "Shirin",
     "name_oz": "Ширин",
-    "name_ru": "Шиpин"
+    "name_ru": "Ширин"
   },
   {
     "id": 135,
@@ -933,7 +933,7 @@
     "soato_id": 1724413,
     "name_uz": "Yangiyer",
     "name_oz": "Янгиер",
-    "name_ru": "Янгиеp"
+    "name_ru": "Янгиер"
   },
   {
     "id": 137,
@@ -1181,7 +1181,7 @@
     "soato_id": 1727419,
     "name_uz": "Chirchiq",
     "name_oz": "Чирчиқ",
-    "name_ru": "Чиpчик"
+    "name_ru": "Чирчик"
   },
   {
     "id": 169,
@@ -1341,7 +1341,7 @@
     "soato_id": 1730412,
     "name_uz": "Marg'ilon",
     "name_oz": "Марғилон",
-    "name_ru": "Маpгилан"
+    "name_ru": "Маргилан"
   },
   {
     "id": 189,
@@ -1581,7 +1581,7 @@
     "soato_id": 1712408,
     "name_uz": "Zarafshon",
     "name_oz": "Зарафшон",
-    "name_ru": "Заpафшан"
+    "name_ru": "Зарафшан"
   },
   {
     "id": 2981,
@@ -1590,14 +1590,6 @@
     "name_uz": "Termiz",
     "name_oz": "Термиз",
     "name_ru": "Термез"
-  },
-  {
-    "id": 2993,
-    "region_id": 11,
-    "soato_id": 1726260260,
-    "name_uz": "Toshkent shahrining tumanlari",
-    "name_oz": "Тошкент шаҳрининг туманлари",
-    "name_ru": null
   },
   {
     "id": 5867,
@@ -1611,9 +1603,9 @@
     "id": 8574,
     "region_id": 10,
     "soato_id": 1724414,
-    "name_uz": "Baxt shaxar",
-    "name_oz": "Бахт шахар",
-    "name_ru": "город Бахт"
+    "name_uz": "Baxt",
+    "name_oz": "Бахт",
+    "name_ru": "Бахт"
   },
   {
     "id": 8575,
@@ -1666,7 +1658,7 @@
   {
     "id": 8595,
     "region_id": 7,
-    "soato_id": 1714401365,
+    "soato_id": 1714410,
     "name_uz": "Davlatobod tumani",
     "name_oz": "Давлатобод тумани",
     "name_ru": "Давлатабадский район"
@@ -1674,7 +1666,7 @@
   {
     "id": 8601,
     "region_id": 7,
-    "soato_id": 1714401367,
+    "soato_id": 1714415,
     "name_uz": "Yangi Namangan tumani",
     "name_oz": "Янги Наманган тумани",
     "name_ru": "Янги Наманганский район"

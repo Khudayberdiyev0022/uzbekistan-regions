@@ -365,7 +365,7 @@
     "district_id": 17,
     "name_uz": "Orol",
     "name_oz": "Орол",
-    "name_ru": "Аpал"
+    "name_ru": "Арал"
   },
   {
     "id": 263,
@@ -853,7 +853,7 @@
     "district_id": 23,
     "name_uz": "Mingchinor",
     "name_oz": "Мингчинор",
-    "name_ru": "Мингчинаp"
+    "name_ru": "Мингчинар"
   },
   {
     "id": 324,
@@ -997,7 +997,7 @@
     "district_id": 25,
     "name_uz": "Qoratepa",
     "name_oz": "Қоратепа",
-    "name_ru": "Каpатепа"
+    "name_ru": "Каратепа"
   },
   {
     "id": 342,
@@ -1429,7 +1429,7 @@
     "district_id": 29,
     "name_uz": "Birlashgan",
     "name_oz": "Бирлашган",
-    "name_ru": "Биpлашган"
+    "name_ru": "Бирлашган"
   },
   {
     "id": 396,
@@ -1589,7 +1589,7 @@
     "district_id": 32,
     "name_uz": "Chandir",
     "name_oz": "Чандир",
-    "name_ru": "Чандиp"
+    "name_ru": "Чандир"
   },
   {
     "id": 416,
@@ -1605,7 +1605,7 @@
     "district_id": 32,
     "name_uz": "Qirlishon",
     "name_oz": "Қирлишон",
-    "name_ru": "Киpлишон"
+    "name_ru": "Кирлишон"
   },
   {
     "id": 418,
@@ -1613,7 +1613,7 @@
     "district_id": 32,
     "name_uz": "Soyin-qorovul",
     "name_oz": "Сойин-қоровул",
-    "name_ru": "Соин - Коpавул"
+    "name_ru": "Соин - Коравул"
   },
   {
     "id": 419,
@@ -1757,7 +1757,7 @@
     "district_id": 33,
     "name_uz": "Sohibkor",
     "name_oz": "Соҳибкор",
-    "name_ru": "Сохибкоp"
+    "name_ru": "Сохибкор"
   },
   {
     "id": 437,
@@ -1765,7 +1765,7 @@
     "district_id": 33,
     "name_uz": "So'fikorgar",
     "name_oz": "Сўфикоргар",
-    "name_ru": "Суфикоpгаp"
+    "name_ru": "Суфикоргар"
   },
   {
     "id": 438,
@@ -1781,7 +1781,7 @@
     "district_id": 33,
     "name_uz": "Ko'chko'mar",
     "name_oz": "Кўчкўмар",
-    "name_ru": "Кучкумаp"
+    "name_ru": "Кучкумар"
   },
   {
     "id": 440,
@@ -1829,7 +1829,7 @@
     "district_id": 34,
     "name_uz": "Pirmast",
     "name_oz": "Пирмаст",
-    "name_ru": "Пиpмаст"
+    "name_ru": "Пирмаст"
   },
   {
     "id": 446,
@@ -2053,7 +2053,7 @@
     "district_id": 35,
     "name_uz": "Zarangari",
     "name_oz": "Зарангари",
-    "name_ru": "Зарангаpи"
+    "name_ru": "Зарангари"
   },
   {
     "id": 474,
@@ -2197,7 +2197,7 @@
     "district_id": 36,
     "name_uz": "Beklar",
     "name_oz": "Беклар",
-    "name_ru": "Беклаp"
+    "name_ru": "Беклар"
   },
   {
     "id": 492,
@@ -2213,7 +2213,7 @@
     "district_id": 36,
     "name_uz": "Sarayon",
     "name_oz": "Сараён",
-    "name_ru": "Саpаен"
+    "name_ru": "Сараен"
   },
   {
     "id": 494,
@@ -2357,7 +2357,7 @@
     "district_id": 37,
     "name_uz": "Sho'rrabot",
     "name_oz": "Шўрработ",
-    "name_ru": "Шуppабот"
+    "name_ru": "Шурработ"
   },
   {
     "id": 512,
@@ -2413,7 +2413,7 @@
     "district_id": 37,
     "name_uz": "Chandir",
     "name_oz": "Чандир",
-    "name_ru": "Чандиp"
+    "name_ru": "Чандир"
   },
   {
     "id": 519,
@@ -2445,7 +2445,7 @@
     "district_id": 37,
     "name_uz": "Qorahoji",
     "name_oz": "Қораҳожи",
-    "name_ru": "Каpаходжи"
+    "name_ru": "Караходжи"
   },
   {
     "id": 523,
@@ -2597,7 +2597,7 @@
     "district_id": 39,
     "name_uz": "Qoraqalpoq",
     "name_oz": "Қорақалпоқ",
-    "name_ru": "Каpакалпак"
+    "name_ru": "Каракалпак"
   },
   {
     "id": 542,
@@ -2781,7 +2781,7 @@
     "district_id": 41,
     "name_uz": "Qaroli",
     "name_oz": "Қароли",
-    "name_ru": "Каpоли"
+    "name_ru": "Кароли"
   },
   {
     "id": 565,
@@ -2869,7 +2869,7 @@
     "district_id": 41,
     "name_uz": "Mirzayon",
     "name_oz": "Мирзаён",
-    "name_ru": "Миpзоен"
+    "name_ru": "Мирзоен"
   },
   {
     "id": 576,
@@ -3029,7 +3029,7 @@
     "district_id": 42,
     "name_uz": "Iskogare",
     "name_oz": "Искогаре",
-    "name_ru": "Искогаpе"
+    "name_ru": "Искогаре"
   },
   {
     "id": 596,
@@ -3325,7 +3325,7 @@
     "district_id": 47,
     "name_uz": "Xonimqo'rg'on",
     "name_oz": "Хонимқўрғон",
-    "name_ru": "Хонимкуpган"
+    "name_ru": "Хонимкурган"
   },
   {
     "id": 633,
@@ -3413,7 +3413,7 @@
     "district_id": 47,
     "name_uz": "Tozaurug'",
     "name_oz": "Тозауруғ",
-    "name_ru": "Тозауpуг"
+    "name_ru": "Тозауруг"
   },
   {
     "id": 644,
@@ -3517,7 +3517,7 @@
     "district_id": 2905,
     "name_uz": "Qo'shbarmoq",
     "name_oz": "Қўшбармоқ",
-    "name_ru": "Кушбаpмок"
+    "name_ru": "Кушбармок"
   },
   {
     "id": 657,
@@ -3565,7 +3565,7 @@
     "district_id": 2905,
     "name_uz": "Samarqand quduq",
     "name_oz": "Самарқанд қудуқ",
-    "name_ru": "Самаpканд - кудук"
+    "name_ru": "Самарканд - кудук"
   },
   {
     "id": 663,
@@ -3645,7 +3645,7 @@
     "district_id": 49,
     "name_uz": "Mevazor",
     "name_oz": "Мевазор",
-    "name_ru": "Мевазоp"
+    "name_ru": "Мевазор"
   },
   {
     "id": 673,
@@ -3757,7 +3757,7 @@
     "district_id": 50,
     "name_uz": "Shirin",
     "name_oz": "Ширин",
-    "name_ru": "Шиpин"
+    "name_ru": "Ширин"
   },
   {
     "id": 687,
@@ -3797,7 +3797,7 @@
     "district_id": 51,
     "name_uz": "Sharq yulduzi",
     "name_oz": "Шарқ юлдузи",
-    "name_ru": "Шаpк Юлдузи"
+    "name_ru": "Шарк Юлдузи"
   },
   {
     "id": 692,
@@ -3829,7 +3829,7 @@
     "district_id": 51,
     "name_uz": "Lalmikor",
     "name_oz": "Лалмикор",
-    "name_ru": "Лалмикоp"
+    "name_ru": "Лалмикор"
   },
   {
     "id": 696,
@@ -3853,7 +3853,7 @@
     "district_id": 51,
     "name_uz": "Adirobod",
     "name_oz": "Адиробод",
-    "name_ru": "Адиpабад"
+    "name_ru": "Адирабад"
   },
   {
     "id": 699,
@@ -4117,7 +4117,7 @@
     "district_id": 55,
     "name_uz": "Arnasoy",
     "name_oz": "Арнасой",
-    "name_ru": "Аpнасай"
+    "name_ru": "Арнасай"
   },
   {
     "id": 732,
@@ -4373,7 +4373,7 @@
     "district_id": 58,
     "name_uz": "Sherali",
     "name_oz": "Шерали",
-    "name_ru": "Шеpали"
+    "name_ru": "Шерали"
   },
   {
     "id": 764,
@@ -4485,7 +4485,7 @@
     "district_id": 59,
     "name_uz": "Oqirtma",
     "name_oz": "Оқиртма",
-    "name_ru": "Окиpтма"
+    "name_ru": "Окиртма"
   },
   {
     "id": 778,
@@ -4493,7 +4493,7 @@
     "district_id": 59,
     "name_uz": "Bozortepa",
     "name_oz": "Бозортепа",
-    "name_ru": "Базаpтепа"
+    "name_ru": "Базартепа"
   },
   {
     "id": 779,
@@ -4501,7 +4501,7 @@
     "district_id": 59,
     "name_uz": "Qirqquloch",
     "name_oz": "Қирққулоч",
-    "name_ru": "Киpккулач"
+    "name_ru": "Кирккулач"
   },
   {
     "id": 780,
@@ -4509,7 +4509,7 @@
     "district_id": 59,
     "name_uz": "Oqrabod",
     "name_oz": "Оқрабод",
-    "name_ru": "Окpабод"
+    "name_ru": "Окрабод"
   },
   {
     "id": 781,
@@ -4645,7 +4645,7 @@
     "district_id": 60,
     "name_uz": "Yortepa",
     "name_oz": "Ёртепа",
-    "name_ru": "Еpтепа"
+    "name_ru": "Ертепа"
   },
   {
     "id": 798,
@@ -5285,7 +5285,7 @@
     "district_id": 63,
     "name_uz": "Beshterak",
     "name_oz": "Бештерак",
-    "name_ru": "Бештеpак"
+    "name_ru": "Бештерак"
   },
   {
     "id": 878,
@@ -5405,7 +5405,7 @@
     "district_id": 64,
     "name_uz": "Chandir",
     "name_oz": "Чандир",
-    "name_ru": "Чандиp"
+    "name_ru": "Чандир"
   },
   {
     "id": 893,
@@ -5421,7 +5421,7 @@
     "district_id": 65,
     "name_uz": "Muborak",
     "name_oz": "Муборак",
-    "name_ru": "Мубаpек"
+    "name_ru": "Мубарек"
   },
   {
     "id": 895,
@@ -5493,7 +5493,7 @@
     "district_id": 65,
     "name_uz": "Sariq",
     "name_oz": "Сариқ",
-    "name_ru": "Саpик"
+    "name_ru": "Сарик"
   },
   {
     "id": 904,
@@ -6005,7 +6005,7 @@
     "district_id": 68,
     "name_uz": "Qahramon",
     "name_oz": "Қаҳрамон",
-    "name_ru": "Кахpамон"
+    "name_ru": "Кахрамон"
   },
   {
     "id": 968,
@@ -6021,7 +6021,7 @@
     "district_id": 68,
     "name_uz": "Mirzato'p",
     "name_oz": "Мирзатўп",
-    "name_ru": "Миpзатуп"
+    "name_ru": "Мирзатуп"
   },
   {
     "id": 970,
@@ -6029,7 +6029,7 @@
     "district_id": 68,
     "name_uz": "Torjilg'a",
     "name_oz": "Торжилға",
-    "name_ru": "Тоpжилга"
+    "name_ru": "Торжилга"
   },
   {
     "id": 971,
@@ -6517,7 +6517,7 @@
     "district_id": 73,
     "name_uz": "Boymurot",
     "name_oz": "Боймурот",
-    "name_ru": "Баймуpат"
+    "name_ru": "Баймурат"
   },
   {
     "id": 1032,
@@ -6781,7 +6781,7 @@
     "district_id": 75,
     "name_uz": "Beshrabot",
     "name_oz": "Бешработ",
-    "name_ru": "Бешpабот"
+    "name_ru": "Бешработ"
   },
   {
     "id": 1066,
@@ -6877,7 +6877,7 @@
     "district_id": 76,
     "name_uz": "Jaloyir",
     "name_oz": "Жалойир",
-    "name_ru": "Джалаиp"
+    "name_ru": "Джалаир"
   },
   {
     "id": 1078,
@@ -7109,7 +7109,7 @@
     "district_id": 80,
     "name_uz": "Yangirabod",
     "name_oz": "Янгирабод",
-    "name_ru": "Янгиpабод"
+    "name_ru": "Янгирабод"
   },
   {
     "id": 1107,
@@ -7245,7 +7245,7 @@
     "district_id": 80,
     "name_uz": "Qoracha",
     "name_oz": "Қорача",
-    "name_ru": "Каpача"
+    "name_ru": "Карача"
   },
   {
     "id": 1124,
@@ -7517,7 +7517,7 @@
     "district_id": 84,
     "name_uz": "Shirin",
     "name_oz": "Ширин",
-    "name_ru": "Шиpин"
+    "name_ru": "Ширин"
   },
   {
     "id": 1158,
@@ -7765,7 +7765,7 @@
     "district_id": 86,
     "name_uz": "Marg'izor",
     "name_oz": "Марғизор",
-    "name_ru": "Маргузаp"
+    "name_ru": "Маргузар"
   },
   {
     "id": 1189,
@@ -8149,7 +8149,7 @@
     "district_id": 88,
     "name_uz": "Katagansaroy",
     "name_oz": "Катагансарой",
-    "name_ru": "Катагансаpай"
+    "name_ru": "Катагансарай"
   },
   {
     "id": 1238,
@@ -8365,7 +8365,7 @@
     "district_id": 90,
     "name_uz": "Uchqo'rg'on",
     "name_oz": "Учқўрғон",
-    "name_ru": "Учкуpган"
+    "name_ru": "Учкурган"
   },
   {
     "id": 1265,
@@ -8469,7 +8469,7 @@
     "district_id": 91,
     "name_uz": "Chortoq",
     "name_oz": "Чортоқ",
-    "name_ru": "Чаpтак"
+    "name_ru": "Чартак"
   },
   {
     "id": 1278,
@@ -9237,7 +9237,7 @@
     "district_id": 96,
     "name_uz": "O'rtabuloq",
     "name_oz": "Ўртабулоқ",
-    "name_ru": "Уpтабулак"
+    "name_ru": "Уртабулак"
   },
   {
     "id": 1374,
@@ -9629,7 +9629,7 @@
     "district_id": 99,
     "name_uz": "Yangiqo'rg'oncha",
     "name_oz": "Янгиқўрғонча",
-    "name_ru": "Янгикуpганча"
+    "name_ru": "Янгикурганча"
   },
   {
     "id": 1423,
@@ -9773,7 +9773,7 @@
     "district_id": 100,
     "name_uz": "Urgandji",
     "name_oz": "Урганджи",
-    "name_ru": "Уpганджи"
+    "name_ru": "Урганджи"
   },
   {
     "id": 1441,
@@ -9837,7 +9837,7 @@
     "district_id": 101,
     "name_uz": "Kosogoron",
     "name_oz": "Косогорон",
-    "name_ru": "Косагаpан"
+    "name_ru": "Косагаран"
   },
   {
     "id": 1449,
@@ -9853,7 +9853,7 @@
     "district_id": 101,
     "name_uz": "Chaqar",
     "name_oz": "Чақар",
-    "name_ru": "Чакаp"
+    "name_ru": "Чакар"
   },
   {
     "id": 1451,
@@ -9877,7 +9877,7 @@
     "district_id": 101,
     "name_uz": "Qorasiyrak",
     "name_oz": "Қорасийрак",
-    "name_ru": "Каpасиpак"
+    "name_ru": "Карасирак"
   },
   {
     "id": 1454,
@@ -9885,7 +9885,7 @@
     "district_id": 102,
     "name_uz": "Payariq",
     "name_oz": "Паяриқ",
-    "name_ru": "Пайаpык"
+    "name_ru": "Пайарык"
   },
   {
     "id": 1455,
@@ -10189,7 +10189,7 @@
     "district_id": 103,
     "name_uz": "Anxor",
     "name_oz": "Анхор",
-    "name_ru": "Анхоp"
+    "name_ru": "Анхор"
   },
   {
     "id": 1493,
@@ -10205,7 +10205,7 @@
     "district_id": 103,
     "name_uz": "Saribosh",
     "name_oz": "Сарибош",
-    "name_ru": "Саpибаш"
+    "name_ru": "Сарибаш"
   },
   {
     "id": 1495,
@@ -10237,7 +10237,7 @@
     "district_id": 103,
     "name_uz": "Torariq",
     "name_oz": "Торариқ",
-    "name_ru": "Тоpаpык"
+    "name_ru": "Торарык"
   },
   {
     "id": 1499,
@@ -10333,7 +10333,7 @@
     "district_id": 104,
     "name_uz": "Xayrobod",
     "name_oz": "Хайробод",
-    "name_ru": "Хайpабад"
+    "name_ru": "Хайрабад"
   },
   {
     "id": 1511,
@@ -10501,7 +10501,7 @@
     "district_id": 106,
     "name_uz": "Nurbuloq",
     "name_oz": "Нурбулоқ",
-    "name_ru": "Нуpбулак"
+    "name_ru": "Нурбулак"
   },
   {
     "id": 1532,
@@ -10645,7 +10645,7 @@
     "district_id": 107,
     "name_uz": "Baxrin",
     "name_oz": "Бахрин",
-    "name_ru": "Бахpин"
+    "name_ru": "Бахрин"
   },
   {
     "id": 1550,
@@ -10653,7 +10653,7 @@
     "district_id": 107,
     "name_uz": "Jartepa",
     "name_oz": "Жартепа",
-    "name_ru": "Джаpтепа"
+    "name_ru": "Джартепа"
   },
   {
     "id": 1551,
@@ -10661,7 +10661,7 @@
     "district_id": 107,
     "name_uz": "Uramas",
     "name_oz": "Урамас",
-    "name_ru": "Уpамас"
+    "name_ru": "Урамас"
   },
   {
     "id": 1552,
@@ -10805,7 +10805,7 @@
     "district_id": 109,
     "name_uz": "Kimyogarlar",
     "name_oz": "Кимёгарлар",
-    "name_ru": "Кимегаpлаp"
+    "name_ru": "Кимегарлар"
   },
   {
     "id": 1570,
@@ -10829,7 +10829,7 @@
     "district_id": 110,
     "name_uz": "Kattaqo'rg'on shahar xokimiyatiga qarashli shaharchalar",
     "name_oz": "Каттақўрғон шаҳар хокимиятига қарашли шаҳарчалар",
-    "name_ru": "Городские поселки,подч. Каттакуpганскому гоpхок-ту"
+    "name_ru": "Городские поселки,подч. Каттакурганскому горхок-ту"
   },
   {
     "id": 1573,
@@ -11565,7 +11565,7 @@
     "district_id": 115,
     "name_uz": "Qiziljar",
     "name_oz": "Қизилжар",
-    "name_ru": "Кызылжаp"
+    "name_ru": "Кызылжар"
   },
   {
     "id": 1665,
@@ -11581,7 +11581,7 @@
     "district_id": 115,
     "name_uz": "Tortuvli",
     "name_oz": "Тортувли",
-    "name_ru": "Тоpтувли"
+    "name_ru": "Тортувли"
   },
   {
     "id": 1667,
@@ -11661,7 +11661,7 @@
     "district_id": 115,
     "name_uz": "Binokor",
     "name_oz": "Бинокор",
-    "name_ru": "Бинокоp"
+    "name_ru": "Бинокор"
   },
   {
     "id": 1677,
@@ -11765,7 +11765,7 @@
     "district_id": 116,
     "name_uz": "Chorjo'y",
     "name_oz": "Чоржўй",
-    "name_ru": "Чаpджуй"
+    "name_ru": "Чарджуй"
   },
   {
     "id": 1690,
@@ -11789,7 +11789,7 @@
     "district_id": 117,
     "name_uz": "Hurriyat",
     "name_oz": "Ҳуррият",
-    "name_ru": "Хуppият"
+    "name_ru": "Хуррият"
   },
   {
     "id": 1693,
@@ -11901,7 +11901,7 @@
     "district_id": 117,
     "name_uz": "Oqjar",
     "name_oz": "Оқжар",
-    "name_ru": "Акжаp"
+    "name_ru": "Акжар"
   },
   {
     "id": 1707,
@@ -11933,7 +11933,7 @@
     "district_id": 117,
     "name_uz": "Arslonboyli",
     "name_oz": "Арслонбойли",
-    "name_ru": "Аpсланбайли"
+    "name_ru": "Арсланбайли"
   },
   {
     "id": 1711,
@@ -12501,7 +12501,7 @@
     "district_id": 122,
     "name_uz": "Sariqamish",
     "name_oz": "Сариқамиш",
-    "name_ru": "Саpикамиш"
+    "name_ru": "Сарикамиш"
   },
   {
     "id": 1782,
@@ -13061,7 +13061,7 @@
     "district_id": 128,
     "name_uz": "Chortoq",
     "name_oz": "Чортоқ",
-    "name_ru": "Чоpток"
+    "name_ru": "Чорток"
   },
   {
     "id": 1853,
@@ -13069,7 +13069,7 @@
     "district_id": 128,
     "name_uz": "Oltin O'rda",
     "name_oz": "Олтин Ўрда",
-    "name_ru": "Олтин Уpда"
+    "name_ru": "Олтин Урда"
   },
   {
     "id": 1854,
@@ -13101,7 +13101,7 @@
     "district_id": 129,
     "name_uz": "Cho'lquvar",
     "name_oz": "Чўлқувар",
-    "name_ru": "Чулкуваp"
+    "name_ru": "Чулкувар"
   },
   {
     "id": 1858,
@@ -13141,7 +13141,7 @@
     "district_id": 129,
     "name_uz": "Qo'rg'ontepa",
     "name_oz": "Қўрғонтепа",
-    "name_ru": "Куpгантепа"
+    "name_ru": "Кургантепа"
   },
   {
     "id": 1863,
@@ -13213,7 +13213,7 @@
     "district_id": 130,
     "name_uz": "Birlashgan",
     "name_oz": "Бирлашган",
-    "name_ru": "Биpлашган"
+    "name_ru": "Бирлашган"
   },
   {
     "id": 1872,
@@ -13221,7 +13221,7 @@
     "district_id": 130,
     "name_uz": "Nurafshon",
     "name_oz": "Нурафшон",
-    "name_ru": "Нуpафшан"
+    "name_ru": "Нурафшан"
   },
   {
     "id": 1873,
@@ -13237,7 +13237,7 @@
     "district_id": 131,
     "name_uz": "Sirdaryo",
     "name_oz": "Сирдарё",
-    "name_ru": "Сыpдаpья"
+    "name_ru": "Сырдарья"
   },
   {
     "id": 1875,
@@ -13293,7 +13293,7 @@
     "district_id": 131,
     "name_uz": "Turon",
     "name_oz": "Турон",
-    "name_ru": "Туpон"
+    "name_ru": "Турон"
   },
   {
     "id": 1882,
@@ -13413,7 +13413,7 @@
     "district_id": 132,
     "name_uz": "Turkiston",
     "name_oz": "Туркистон",
-    "name_ru": "Туpкистан"
+    "name_ru": "Туркистан"
   },
   {
     "id": 1897,
@@ -13573,7 +13573,7 @@
     "district_id": 148,
     "name_uz": "Erkinlik",
     "name_oz": "Эркинлик",
-    "name_ru": "Эpкинлик"
+    "name_ru": "Эркинлик"
   },
   {
     "id": 1917,
@@ -14061,7 +14061,7 @@
     "district_id": 151,
     "name_uz": "Pargos",
     "name_oz": "Паргос",
-    "name_ru": "Паpгос"
+    "name_ru": "Паргос"
   },
   {
     "id": 1979,
@@ -14141,7 +14141,7 @@
     "district_id": 152,
     "name_uz": "Turon",
     "name_oz": "Турон",
-    "name_ru": "Туpон"
+    "name_ru": "Турон"
   },
   {
     "id": 1989,
@@ -15165,7 +15165,7 @@
     "district_id": 160,
     "name_uz": "Turkiston",
     "name_oz": "Туркистон",
-    "name_ru": "Туpкистан"
+    "name_ru": "Туркистан"
   },
   {
     "id": 2117,
@@ -15861,7 +15861,7 @@
     "district_id": 171,
     "name_uz": "Do'rmon",
     "name_oz": "Дўрмон",
-    "name_ru": "Дуpман"
+    "name_ru": "Дурман"
   },
   {
     "id": 2204,
@@ -17861,7 +17861,7 @@
     "district_id": 181,
     "name_uz": "Qaptarxona",
     "name_oz": "Қаптархона",
-    "name_ru": "Каптаpхона"
+    "name_ru": "Каптархона"
   },
   {
     "id": 2454,
@@ -17869,7 +17869,7 @@
     "district_id": 181,
     "name_uz": "Shoximardon",
     "name_oz": "Шохимардон",
-    "name_ru": "Шахимаpдан"
+    "name_ru": "Шахимардан"
   },
   {
     "id": 2455,
@@ -17917,7 +17917,7 @@
     "district_id": 181,
     "name_uz": "Yuqori Vodil",
     "name_oz": "Юқори Водил",
-    "name_ru": "Юкоpи Вуадыл"
+    "name_ru": "Юкори Вуадыл"
   },
   {
     "id": 2461,
@@ -18269,7 +18269,7 @@
     "district_id": 184,
     "name_uz": "Karatepa",
     "name_oz": "Каратепа",
-    "name_ru": "Каpатепа"
+    "name_ru": "Каратепа"
   },
   {
     "id": 2505,
@@ -18309,7 +18309,7 @@
     "district_id": 184,
     "name_uz": "Ishtirxon",
     "name_oz": "Иштирхон",
-    "name_ru": "Иштиpхон"
+    "name_ru": "Иштирхон"
   },
   {
     "id": 2510,
@@ -18381,7 +18381,7 @@
     "district_id": 187,
     "name_uz": "Qo'chqorchi",
     "name_oz": "Қўчқорчи",
-    "name_ru": "Кучкаpчи"
+    "name_ru": "Кучкарчи"
   },
   {
     "id": 2519,
@@ -18421,7 +18421,7 @@
     "district_id": 188,
     "name_uz": "Yangi Marg'ilon",
     "name_oz": "Янги Марғилон",
-    "name_ru": "Янги Маpгилан"
+    "name_ru": "Янги Маргилан"
   },
   {
     "id": 2524,
@@ -18908,7 +18908,7 @@
     "soato_id": 1733217863,
     "district_id": 192,
     "name_uz": "Cnatko'pir",
-    "name_oz": "Cнаткўпир",
+    "name_oz": "Снаткўпир",
     "name_ru": "Чаткупыр"
   },
   {
@@ -19709,7 +19709,7 @@
     "district_id": 201,
     "name_uz": "Nazarxon",
     "name_oz": "Назархон",
-    "name_ru": "Назаpхан"
+    "name_ru": "Назархан"
   },
   {
     "id": 2685,
@@ -19717,7 +19717,7 @@
     "district_id": 201,
     "name_uz": "O'rta-qala",
     "name_oz": "Ўрта-қала",
-    "name_ru": "Оpта - кала"
+    "name_ru": "Орта - кала"
   },
   {
     "id": 2686,
@@ -19733,7 +19733,7 @@
     "district_id": 201,
     "name_uz": "Quyuq-kupir",
     "name_oz": "Қуюқ-купир",
-    "name_ru": "Куюк- Купиp"
+    "name_ru": "Куюк- Купир"
   },
   {
     "id": 2688,
@@ -19869,7 +19869,7 @@
     "district_id": 202,
     "name_uz": "Sarkop",
     "name_oz": "Саркоп",
-    "name_ru": "Саpкоп"
+    "name_ru": "Саркоп"
   },
   {
     "id": 2705,
@@ -19885,7 +19885,7 @@
     "district_id": 202,
     "name_uz": "Beruniy",
     "name_oz": "Беруний",
-    "name_ru": "Беpуни"
+    "name_ru": "Беруни"
   },
   {
     "id": 2707,
@@ -19981,7 +19981,7 @@
     "district_id": 203,
     "name_uz": "Qarakul",
     "name_oz": "Қаракул",
-    "name_ru": "Каpакуль"
+    "name_ru": "Каракуль"
   },
   {
     "id": 2719,
@@ -20189,7 +20189,7 @@
     "district_id": 205,
     "name_uz": "Qo'ng'irot",
     "name_oz": "Қўнғирот",
-    "name_ru": "Кунгpад"
+    "name_ru": "Кунград"
   },
   {
     "id": 2745,
@@ -20437,7 +20437,7 @@
     "district_id": 208,
     "name_uz": "Kerder",
     "name_oz": "Кердер",
-    "name_ru": "Кеpдеp"
+    "name_ru": "Кердер"
   },
   {
     "id": 2776,
@@ -20525,7 +20525,7 @@
     "district_id": 210,
     "name_uz": "Janadarya",
     "name_oz": "Жанадаря",
-    "name_ru": "Жанадаpья"
+    "name_ru": "Жанадарья"
   },
   {
     "id": 2787,
@@ -20869,7 +20869,7 @@
     "district_id": 213,
     "name_uz": "Tazgara",
     "name_oz": "Тазгара",
-    "name_ru": "Тазгаpа"
+    "name_ru": "Тазгара"
   },
   {
     "id": 2830,
@@ -20893,7 +20893,7 @@
     "district_id": 213,
     "name_uz": "Kosterek",
     "name_oz": "Костерек",
-    "name_ru": "Костеpек"
+    "name_ru": "Костерек"
   },
   {
     "id": 2833,
@@ -21013,7 +21013,7 @@
     "district_id": 215,
     "name_uz": "Sarabiy",
     "name_oz": "Сарабий",
-    "name_ru": "Саpабий"
+    "name_ru": "Сарабий"
   },
   {
     "id": 2848,
